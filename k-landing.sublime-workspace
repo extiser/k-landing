@@ -1,0 +1,1109 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"con",
+				"contents__item"
+			],
+			[
+				"art",
+				"article-video"
+			],
+			[
+				"marign",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"site",
+				"sitemap-page-item"
+			],
+			[
+				"fo",
+				"footer-menu"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ab",
+				"about-page	(about.jade)"
+			],
+			[
+				"dire",
+				"direct-top"
+			],
+			[
+				"rea",
+				"read-more"
+			],
+			[
+				"re",
+				"read-more"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"butt",
+				"button	(GUI.scss)"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"form",
+				"form__field"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"med",
+				"medium-8"
+			],
+			[
+				"fom",
+				"form__label"
+			],
+			[
+				"ex",
+				"expert-settings"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"e",
+				"expert-questions"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"for",
+				"form__field"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"me",
+				"medium-4"
+			],
+			[
+				"al",
+				"align-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"ali",
+				"align"
+			],
+			[
+				"log",
+				"login-page-form-native"
+			],
+			[
+				"login-pa",
+				"login-page-form"
+			],
+			[
+				"l",
+				"login-page-form"
+			],
+			[
+				"login",
+				"login-page"
+			],
+			[
+				"lo",
+				"login-page-form-social"
+			],
+			[
+				"sho",
+				"show-more"
+			],
+			[
+				"fn",
+				"font-weight"
+			],
+			[
+				"margn",
+				"margin-bottom"
+			],
+			[
+				"be",
+				"best-experts"
+			],
+			[
+				"experts-rate",
+				"experts-rate-item"
+			],
+			[
+				"best-ex",
+				"best-experts-item"
+			],
+			[
+				"sin",
+				"single"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"vi",
+				"violet"
+			],
+			[
+				"single-ask-log",
+				"single-ask-login-popup-social"
+			],
+			[
+				"sing",
+				"single-ask-login"
+			],
+			[
+				"singl",
+				"single-content"
+			],
+			[
+				"block",
+				"blockquote	(single-content.jade)"
+			],
+			[
+				"blo",
+				"blockquote"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"ca",
+				"categories-main"
+			],
+			[
+				"small",
+				"small-12	(index.jade)"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"exp",
+				"expert	(experts-list.jade)"
+			],
+			[
+				"tp",
+				"tips-hours"
+			],
+			[
+				"tip",
+				"tips-hours"
+			],
+			[
+				"ar",
+				"article-block"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"column",
+				"columns	(GUI.scss)"
+			],
+			[
+				"smal",
+				"small-12"
+			],
+			[
+				"top",
+				"top-ask"
+			],
+			[
+				"ak",
+				"ask-question-link"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"main",
+				"main-categories-list-item__text"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ma",
+				"main-categories-list__item"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"po",
+				"pointStart"
+			],
+			[
+				"sum",
+				"sumTarifBack"
+			],
+			[
+				"sta",
+				"startCityFind"
+			],
+			[
+				"poin",
+				"pointFinish"
+			],
+			[
+				"fini",
+				"finishCityFind"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"get",
+				"getDistance"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"tr",
+				"transform	(top-menu.scss)"
+			],
+			[
+				"servi",
+				"services-content"
+			],
+			[
+				"flee",
+				"fleet-content"
+			],
+			[
+				"tar",
+				"tarifs-content"
+			],
+			[
+				"tit",
+				"title__text"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"ci",
+				"cityStart	(data.js)"
+			],
+			[
+				"foo",
+				"footer-phones__item"
+			],
+			[
+				"header-p",
+				"header-phones__item"
+			],
+			[
+				"cost",
+				"costDistance"
+			],
+			[
+				"cos",
+				"costDistance"
+			],
+			[
+				"point",
+				"pointStart"
+			],
+			[
+				"console",
+				"console.log();"
+			],
+			[
+				"tari",
+				"tarifs"
+			],
+			[
+				"defau",
+				"default	(data.js)"
+			],
+			[
+				"ta",
+				"tarifs"
+			],
+			[
+				"ea",
+				"ease-in-out"
+			],
+			[
+				"modal",
+				"modalItem"
+			],
+			[
+				"moda",
+				"modalItem"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"lis",
+				"list-style-position"
+			],
+			[
+				"cal",
+				"calculator"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"slide",
+				"slider-about"
+			],
+			[
+				"ser",
+				"sertificates-slider"
+			],
+			[
+				"abo",
+				"about-content"
+			],
+			[
+				"about",
+				"about-content"
+			],
+			[
+				"abou",
+				"about-content"
+			],
+			[
+				"reiver",
+				"reviews-slider"
+			],
+			[
+				"revi",
+				"reviews-slider-item"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"trans",
+				"transform"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/extiser/git/k-landing/markup"
+	],
+	"file_history":
+	[
+		"/Users/extiser/git/k-landing/tars-config.js",
+		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-share/single-share.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-top/single-top.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-share/single-share.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-top/single-top.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/sitemap.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/sitemap-page/sitemap-page.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/_layout.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/footer/footer.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/footer/footer.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/about.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/about-page/about-page.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/about-page/about-page.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/category-page/category-page.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/category-page/category-page.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/index.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/single.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/read-more/read-more.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/read-more/read-more.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/menu/data/data.js",
+		"/Users/extiser/git/sovets-pro/markup/modules/menu/menu.scss",
+		"/Users/extiser/Dropbox/fix.css",
+		"/Users/extiser/git/nemodnaya/builds/static/css/main_ie9.css",
+		"/Users/extiser/git/nemodnaya/builds/static/css/main_ie9.min.css",
+		"/Users/extiser/git/sovets-pro/markup/modules/menu/menu.jade",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/etc/other-icons.scss",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-settings/expert-settings.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-settings/expert-settings.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-settings.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/registration-page/registration-page.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/article-block/article-block.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/tips-hours/tips-hours.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/article-block/article-block.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-menu/experts-menu.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-menu/experts-menu.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/zodiac/zodiac.scss",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/_sovpro_settings.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-question.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-question.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-ask-question.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-ask-question/expert-ask-questionjade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-questions/expert-questions.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-questions.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-articles/expert-articles.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-articles/expert-articles.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-articles.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-add-article/expert-add-article.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-add-article.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-favourite/expert-favourite.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-favourite/experts-favourite.jade",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-favourite.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-become/expert-become.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert-become/expert-become.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-profile/experts-profile.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-profile/experts-profile.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/experts-profile.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-menu/top-menu.scss",
+		"/Users/extiser/git/sovets-pro/markup/pages/registration.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/meta-window/meta-window.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/meta-window/meta-window.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/registration-page/registration-page.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/login-page/login-page.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/login-page/login-page.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/login-page-form/login-page-form.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/login-page-form/login-page-form.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-page/experts-page.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/show-more/show-more.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-rate-item/experts-rate-item.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-page/experts-page.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-rate-item/experts-rate-item.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/lifehacks/lifehacks.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/show-more/show-more.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/lifehacks/lifehacks.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/best-experts/best-experts.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/best-experts/best-experts.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-ask/single-ask.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-ask/single-ask.scss",
+		"/Users/extiser/git/izeta-site/markup/modules/menu/menu.jade",
+		"/Users/extiser/git/izeta-site/markup/pages/collection.jade",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/common.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/breadcrumbs/breadcrumbs.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/breadcrumbs/breadcrumbs.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/tips-hours/tips-hours.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-menu/top-menu.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.jade",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/etc/zodiac-icons.scss",
+		"/Users/extiser/git/sovets-pro/tars-config.js",
+		"/Users/extiser/git/sovets-2015/tars-config.js",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.jade",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/_izeta_settings.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert/expert.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/expert/expert.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts/experts.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-ask/top-ask.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-search/top-search.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-search/top-search.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/top-ask/top-ask.jade",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/vars.scss",
+		"/Users/extiser/git/sovets-2015/markup/static/scss/vars.scss",
+		"/Users/extiser/git/sovets-2015/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/sovets-pro/markup/static/scss/libraries/font-awesome.scss",
+		"/Users/extiser/git/sovets-pro/node_modules/font-awesome/scss/_variables.scss",
+		"/Users/extiser/git/sovets-pro/node_modules/font-awesome/scss/font-awesome.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/topbar/topbar.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/topmenu/top-menu.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/block-big/block-big.jade",
+		"/Users/extiser/git/izeta-site/markup/modules/block-big-slide/block-big-slide.jade",
+		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.jade",
+		"/Users/extiser/git/sovets-pro/markup/modules/block-big/blog-big.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"img",
+			"шьп",
+			"offcanvas",
+			"off",
+			"/",
+			".form__label",
+			"accord",
+			"li",
+			".experts-favourite",
+			".form__top-label.form__label",
+			"label",
+			".meta-window-social-item",
+			".login-page-form-native",
+			".login-page-form-social",
+			".experts-rate__item",
+			"zodiac",
+			"Cambria-Regular",
+			" data-icon=\"\"",
+			".zodiac__item",
+			"links",
+			"Links",
+			"color",
+			"linkcolor",
+			"link",
+			"form",
+			"menu",
+			"-webfont",
+			"url('",
+			"span.main-categories-list-item__icon",
+			" /  оплачено",
+			"\n\n",
+			"\n",
+			"\n\n",
+			"\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"/ оплачено\n\n\n\n",
+			" / оплачено",
+			"\n",
+			"cost: '",
+			"cityFinish:",
+			"cityFinish:'Самарканд',",
+			"cityFinish: ",
+			"city:",
+			"cost: '5",
+			"cost: '6",
+			"cost: '3",
+			"cost: '1",
+			"cost: '2",
+			"weight: '',",
+			";\n",
+			"../img/",
+			"день",
+			"%=staticPrefix=%images/content/",
+			"bda",
+			"yog",
+			"team",
+			"massa",
+			"face",
+			"eyes",
+			"ea",
+			"coach",
+			"bday",
+			"Calibri-Regular",
+			"auto_complete",
+			"auto",
+			".form__label",
+			".form__element",
+			"font-size",
+			"box-sizing",
+			"'",
+			"extend",
+			"</p>",
+			"			<p>",
+			"@media screen and (max-width: 768px) {",
+			"@media screen and (max-width: 480px) {",
+			";\n",
+			"h1",
+			"Custom-Font",
+			"}",
+			"ico",
+			".hide-mobile",
+			"h1",
+			"1",
+			"ul",
+			".hide",
+			"#SkypeButton_Call_vageik_1",
+			"__block",
+			"row",
+			".row",
+			"unisans",
+			".small-article",
+			"a(href=\"#\" ",
+			"ul",
+			"search",
+			"onThumbnailsClick",
+			"pswp",
+			"pswp__item",
+			"openPhotoSwipe",
+			"Thumbnail",
+			"parse",
+			"parseThumbnailElements",
+			".col-lg-11.col-xs-12.col-md-12",
+			".col-lg-1.hidden-xs",
+			".col-lg-1.hidden-xs.hidden-md",
+			".col-lg-11.col-lg-offset-1.col-xs-12.col-md-12",
+			".col-xs-12",
+			".col-md",
+			".col-xs-12",
+			".visible-xs-block.visible-md-block",
+			".visible-xs-block",
+			".title",
+			"8",
+			"send",
+			"$blue",
+			"-webkit-margin-before: 1em;",
+			"HelveticaNeueCyrBold",
+			"../static/images/",
+			"&--individualcreate",
+			"&--momentglory",
+			"&--threecolors",
+			"&--theone",
+			"&--bigdisplay",
+			"../images/",
+			".art-menu",
+			".art-menu ul li",
+			"parent"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#",
+			".form__label.form__label--inline",
+			".experts-menu-list__wrap",
+			".expert-favourite",
+			".form__top-label",
+			"label.form__label",
+			".meta-window-social__item",
+			".meta-window-form",
+			".meta-window-social",
+			".experts-rate__row",
+			"other-icons",
+			"Cambria-Bold",
+			"Cambria-Italic",
+			"",
+			".icon.zodiac__item",
+			"",
+			"url('../fonts/",
+			"i.main-categories-list-item__icon",
+			"",
+			"\n",
+			"",
+			"cost: ",
+			"        cityFinish: ",
+			"        cityFinish:'Самарканд',",
+			"cityStart: 'Ташкент',\ncityFinish:",
+			"cityFinish:",
+			"cost: 5",
+			"cost: 6",
+			"cost: 3",
+			"cost: 1",
+			"cost: 2",
+			"weight: '24 000',",
+			"%=staticPrefixForCss=%general/",
+			"http://shtukaturkapro.ru/TEMP/",
+			"DINPro-Bold",
+			"Roboto-Regular",
+			".advertising-form__label",
+			".advertising-form__element",
+			"\"",
+			"",
+			"p ",
+			"p",
+			"@media screen and (max-width: 800px) {",
+			"@media screen and (max-width: 768px) {",
+			"Lato-Thin",
+			"Lato-Regular",
+			"Lato-Medium",
+			"Lato-Light",
+			"Lato-Heavy",
+			"Lato-Hairline",
+			"Lato-Black",
+			"Lato-Bold",
+			"}",
+			"",
+			"#SkypeButton_Call_redvoronik_1",
+			"__item",
+			"../fonts/unisans",
+			".similar-article",
+			"li.sidebar-nav__item\n				a(href=\"#\" ",
+			".col-xs-12.col-md-12.col-lg-11",
+			".hidden-xs.col-lg-1",
+			".hidden-xs.hidden-md.col-lg-1",
+			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
+			".col-xs-12.col-md-12",
+			".col-lg",
+			"",
+			".visible-xs-block.visible-md-block",
+			".title.visible-xs-block",
+			"#70cfea",
+			"angular",
+			"SegoeUILight",
+			"../images/",
+			"&--individualCreate",
+			"&--momentGlory",
+			"&--threeColors",
+			"&--theOne",
+			"&--bigDisplay",
+			"../static/images/",
+			"contentRowL",
+			"contentRowF",
+			"content-row-l",
+			"content-row-f",
+			"'",
+			"jQuery",
+			"slider",
+			"\"",
+			"uslugi",
+			"/images",
+			"CalendarByWeek",
+			"www.acccentre.ru",
+			"acccentre.ru",
+			"firm-card-tabs-video-album",
+			"acccentre.iqdemo.ru",
+			"javascript:void(0)",
+			".slide__content__title",
+			"",
+			"/images/",
+			"water",
+			"cr_stone_kg",
+			"cr_stone_m",
+			"sand_m",
+			"sand_kg",
+			"sand_m",
+			"cement",
+			"bags",
+			"plaster_kg",
+			"bags",
+			"plaster_kg",
+			"",
+			"option",
+			"",
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need",
+			"b-in-photo",
+			"b-why",
+			"03dbaf",
+			"01a987",
+			"03bd97"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "k-landing.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
