@@ -1,0 +1,48 @@
+.call-me {
+  @include flex(space-between, center);
+  &__number {
+    width: 180px;
+    height: 40px;
+    margin-right: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: $white;
+    border-radius: 40px;
+    background-color: $orange;
+
+    font-size: 18px;
+    font-weight: $SourceSansPro-Semibold;
+    line-height: 40px;
+
+    @include transition;
+    &:hover {
+      background-color: rgba($orange, .8);
+    }
+  }
+  &__callback {
+    position: relative;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: $orange;
+
+    @include transition;
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-50%,-50%);
+
+      @include content;
+      @include bg($call);
+    }
+    &:hover {
+      background-color: rgba($orange, .8);
+    }
+  }
+}

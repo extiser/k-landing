@@ -1,0 +1,162 @@
+.section-top {
+  box-sizing: border-box;
+
+  background-color: $purple;
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+
+    padding-left: 87px;
+
+    transform: translateY(-50%);
+
+    @extend .wrapper;
+  }
+  .cloud {
+    right: -178px;
+  }
+  .elipse {
+    bottom: -220px;
+    left: -150px;
+  }
+}
+
+.section-top-image {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: -164px;
+
+  width: 855px;
+  height: 1313px;
+
+  transform: translateY(-50%);
+
+  background: url(%=static=%assets/section-top/baby1.png) no-repeat center;
+}
+
+.section-top-advantages {
+  max-width: 60%;
+
+  font-family: $ProbaPro-Regular;
+  font-size: 24px;
+
+  flex-wrap: wrap;
+  @include flex(flex-start, flex-start);
+  &__item {
+    position: relative;
+
+    margin-right: 35px;
+    margin-bottom: 12px;
+    padding-left: 30px;
+
+    color: $white;
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 0;
+
+      width: 15px;
+      height: 15px;
+
+      transform: translateY(-50%);
+
+      border-radius: 50%;
+      background-color: $orange;
+
+      @include content;
+    }
+  }
+}
+
+.section-top-title {
+  position: relative;
+  z-index: 1;
+
+  max-width: 60%;
+  margin-top: 70px;
+  margin-bottom: 50px;
+
+  color: $white;
+  @media screen and (max-width: 1360px) {
+    max-width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-family: $ProbaPro-SemiBold;
+    font-size: 100px;
+    font-weight: normal;
+    line-height: 80px;
+    @media screen and (max-width: 1360px) {
+      font-size: 70px;
+      line-height: 50px;
+    }
+    span {
+      display: block;
+
+      font-family: $ProbaPro-Light;
+      line-height: 90px;
+      @media screen and (max-width: 1360px) {
+        line-height: 70px;
+      }
+    }
+  }
+}
+
+.section-top-bottom {
+  margin-top: 50px;
+
+  @include flex(space-between, center);
+}
+
+.section-top-set {
+  position: relative;
+  z-index: 1;
+
+  max-width: 60%;
+
+  color: $orange;
+
+  font-family: $ProbaPro-Regular;
+  font-size: 30px;
+  line-height: 1;
+  @media screen and (max-width: 1360px) {
+    max-width: 50%;
+
+    font-size: 24px;
+  }
+}
+
+.section-top-next {
+  position: relative;
+
+  display: inline-block;
+
+  box-sizing: border-box;
+  width: 210px;
+  height: 40px;
+  margin-left: 20px;
+  padding-left: 57px;
+
+  text-decoration: none;
+
+  color: $white;
+  border: 2px solid $white;
+  border-radius: 40px;
+
+  font-family: $SourceSansPro-Semibold;
+  line-height: 34px;
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    transform: translateY(-50%);
+
+    @include content;
+    @include bg($arrow-bottom);
+  }
+}

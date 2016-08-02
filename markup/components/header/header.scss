@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  z-index: 99;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  background-color: $white;
+  &__wrapper {
+    height: 100px;
+
+    @extend .wrapper;
+    @include flex(space-between, center);
+  }
+  &__logo {
+    display: block;
+
+    @include bg($logo);
+  }
+}

@@ -1,18 +1,20 @@
-/* Your custom fonts here */
+@include font-face(ProbaPro-Light, "../fonts/ProbaPro-Light");
+$ProbaPro-Light: 'ProbaPro-Light', Helvetica, Arial, sans-serif;
 
-/* Example
+@include font-face(ProbaPro-Medium, "../fonts/ProbaPro-Medium");
+$ProbaPro-Medium: 'ProbaPro-Medium', Helvetica, Arial, sans-serif;
 
-@font-face {
-    font-family: 'CustomFont';
-    src: url('../fonts/Custom-Font.eot');
-    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Custom-Font.woff') format('woff'),
-         url('../fonts/Custom-Font.svg#custom_font') format('svg');
-    font-weight: 400;       // For normal width. It could has another value   
-    font-style: normal;     // Also could has another value
-    }
+@include font-face(ProbaPro-Regular, "../fonts/ProbaPro-Regular");
+$ProbaPro-Regular: 'ProbaPro-Regular', Helvetica, Arial, sans-serif;
 
+@include font-face(ProbaPro-SemiBold, "../fonts/ProbaPro-SemiBold");
+$ProbaPro-SemiBold: 'ProbaPro-SemiBold', Helvetica, Arial, sans-serif;
 
-// Var for using custom font
-$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
-*/
+@include font-face(SourceSansPro-Bold, "../fonts/SourceSansPro-Bold");
+$SourceSansPro-Bold: 'SourceSansPro-Bold', Helvetica, Arial, sans-serif;
+
+@include font-face(SourceSansPro-Regular, "../fonts/SourceSansPro-Regular");
+$SourceSansPro-Regular: 'SourceSansPro-Regular', Helvetica, Arial, sans-serif;
+
+@include font-face(SourceSansPro-Semibold, "../fonts/SourceSansPro-Semibold");
+$SourceSansPro-Semibold: 'SourceSansPro-Semibold', Helvetica, Arial, sans-serif;

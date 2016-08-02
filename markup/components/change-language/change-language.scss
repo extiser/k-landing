@@ -1,0 +1,32 @@
+.change-language {
+  box-sizing: border-box;
+  height: 40px;
+
+  border: 2px solid $orange;
+  border-radius: 40px;
+
+  @include flex(space-between, center);
+  &__item {
+    width: 40px;
+    height: 40px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: $gray;
+    border-radius: 50%;
+
+    font-family: $SourceSansPro-Semibold;
+    font-size: 18px;
+    line-height: 38px;
+
+    @include transition;
+    &:hover {
+      cursor: pointer;
+    }
+    &._active {
+      color: $white;
+      background-color: $orange;
+    }
+  }
+}

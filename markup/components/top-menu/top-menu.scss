@@ -1,0 +1,26 @@
+.top-menu {
+  &__list {
+    @include flex(space-between, center);
+  }
+  &__item {
+    margin-right: 25px;
+
+    text-decoration: none;
+
+    color: $gray;
+
+    font-family: $SourceSansPro-Semibold;
+    font-size: 18px;
+
+    @include transition;
+    @media screen and (max-width: 1360px) {
+      margin-right: 15px;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      color: $orange;
+    }
+  }
+}
