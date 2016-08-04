@@ -1,0 +1,72 @@
+
+
+.section-map-information {
+  position: absolute;
+  right: 0;
+  bottom: 160px;
+  left: 0;
+
+  max-width: 800px;
+  margin: auto;
+  padding: 26px 40px;
+
+  border-radius: 20px;
+  background-color: $purple;
+
+  @include flex(space-between, stretch);
+  &__title {
+    color: $white;
+
+    font-family: $ProbaPro-Medium;
+    font-size: 30px;
+    line-height: 40px;
+    &--orange {
+      position: absolute;
+      bottom: 10px;
+
+      color: $orange;
+    }
+  }
+  &__left {
+    position: relative;
+
+    min-width: 285px;
+    margin-right: 105px;
+  }
+}
+
+.section-map-information-contact {
+  &__item {
+    position: relative;
+
+    margin-bottom: 5px;
+    padding-left: 43px;
+
+    color: $white;
+
+    font-family: $SourceSansPro-Regular;
+    font-size: 24px;
+    span {
+      position: absolute;
+      top: 1px;
+      left: 0;
+
+      display: inline-block;
+
+      width: 30px;
+      height: 30px;
+      margin-right: 18px;
+
+      text-align: center;
+      text-transform: uppercase;
+
+      color: $orange;
+      border-radius: 50%;
+      background-color: $white;
+
+      font-family: $SourceSansPro-Bold;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}

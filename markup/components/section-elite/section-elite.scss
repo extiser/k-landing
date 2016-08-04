@@ -1,0 +1,69 @@
+.section-elite {
+  position: relative;
+
+  padding-bottom: 40px;
+
+  background-color: $purple;
+  &__wrapper {
+    @extend .wrapper;
+  }
+}
+
+.section-elite-slide {
+  position: relative;
+  &--first {
+    img {
+      position: absolute;
+      top: 50%;
+      left: -616px;
+
+      transform: translateY(-50%);
+    }
+    .slide-control {
+      bottom: 10px;
+      left: 721px;
+
+      margin-left: 0;
+    }
+  }
+}
+
+.section-elite-content {
+  position: absolute;
+  top: 50%;
+  left: 721px;
+
+  max-width: 590px;
+
+  transform: translateY(-50%);
+}
+
+.section-elite-content-companies {
+  margin-top: 60px;
+
+  flex-wrap: wrap;
+  @include flex(flex-start, center);
+  &__item {
+    margin-right: 60px;
+    margin-bottom: 30px;
+
+    text-indent: -9999px;
+    &--microsoft {
+      @include bg($microsoft);
+    }
+    &--adidas {
+      margin-right: 120px;
+
+      @include bg($adidas);
+    }
+    &--intel {
+      @include bg($intel);
+    }
+    &--3m {
+      @include bg($_3m);
+    }
+    &--jnj {
+      @include bg($jnj);
+    }
+  }
+}

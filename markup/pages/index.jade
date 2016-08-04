@@ -10,6 +10,10 @@ html(class="no-js", lang="ru")
 
   //- sections
   include ../components/section-top/section-top
+  include ../components/section-about/section-about
+  include ../components/section-map/section-map
+  include ../components/section-gallery/section-gallery
+  include ../components/section-elite/section-elite
   //- sections
 
   head
@@ -18,6 +22,10 @@ html(class="no-js", lang="ru")
     +header
     #fullpage
       +section-top
+      +section-about
+      +section-map
+      +section-gallery
+      +section-elite
     +footer()
 
     //- Main scripts. You can replace it, but I recommend you to leave it here

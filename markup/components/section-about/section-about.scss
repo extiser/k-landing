@@ -1,0 +1,113 @@
+.section-about {
+  position: relative;
+
+  background-color: $green;
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+
+    padding-right: 180px;
+
+    transform: translateY(-50%);
+
+    @extend .wrapper;
+    @include flex(space-between, center);
+  }
+  .cloud {
+    top: 50%;
+    left: -248px;
+
+    transform: translateY(-50%);
+  }
+  .elipse {
+    right: -160px;
+    bottom: -260px;
+  }
+  .elipsecircle {
+    top: -50px;
+    right: 78px;
+  }
+}
+
+.section-about-left {
+  width: 580px;
+  height: 460px;
+}
+
+.section-about-right {
+  width: 540px;
+}
+
+.section-about-video {
+  position: absolute;
+  left: -15px;
+  &__play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+
+    width: 80px;
+    height: 80px;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+    background-color: $purple;
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-40%,-50%);
+
+      @include bg($play);
+      @include content;
+    }
+  }
+}
+
+.section-about-advantages {
+  margin-top: 55px;
+}
+
+.section-about-advantages-item {
+  position: relative;
+
+  padding-left: 85px;
+
+  font-size: 18px;
+  &:before {
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+    @include content;
+  }
+  &--fullday {
+    margin-bottom: 40px;
+    &:before {
+      @include bg($clock);
+    }
+  }
+  &--individual {
+    &:before {
+      left: 8px;
+
+      @include bg($graph);
+    }
+  }
+  &__title {
+    margin-bottom: 2px;
+
+    color: $purple;
+
+    font-family: $SourceSansPro-Semibold;
+  }
+  &__text {
+    color: $white;
+
+    font-family: $SourceSansPro-Regular;
+  }
+}

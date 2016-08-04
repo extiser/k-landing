@@ -4,12 +4,108 @@
 		"selected_items":
 		[
 			[
+				"marign",
+				"margin-top	(GUI.scss)"
+			],
+			[
+				"So",
+				"SourceSansPro-Regular	(fonts.scss)"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-size	(GUI.scss)"
+			],
+			[
+				"tra",
+				"translate"
+			],
+			[
+				"pad",
+				"padding-left	(GUI.scss)"
+			],
+			[
+				"Pro",
+				"ProbaPro-SemiBold	(fonts.scss)"
+			],
+			[
+				"section-about-adv",
+				"section-about-advantages-item"
+			],
+			[
+				"sec",
+				"section-about"
+			],
+			[
 				"margin",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"rb",
+				"rgba()"
 			],
 			[
 				"padd",
-				"padding"
+				"padding-top"
+			],
+			[
+				"Pr",
+				"ProbaPro-Light	(fonts.scss)"
+			],
+			[
+				"P",
+				"ProbaPro-SemiBold	(fonts.scss)"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"section",
+				"section-top"
+			],
+			[
+				"rem",
+				"rem-calc	(mixins.scss)"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"ali",
+				"alignItems"
+			],
+			[
+				"jus",
+				"justifyContent"
+			],
+			[
+				"he",
+				"header	(header.jade)"
+			],
+			[
+				"ma",
+				"margin"
 			],
 			[
 				"con",
@@ -20,20 +116,8 @@
 				"article-video"
 			],
 			[
-				"marign",
-				"margin-left"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
 				"marg",
 				"margin-left"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"site",
@@ -46,10 +130,6 @@
 			[
 				"margi",
 				"margin-top"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"max",
@@ -98,10 +178,6 @@
 			[
 				"form",
 				"form__field"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"med",
@@ -178,10 +254,6 @@
 			[
 				"backgrou",
 				"background-color"
-			],
-			[
-				"ali",
-				"align"
 			],
 			[
 				"log",
@@ -292,10 +364,6 @@
 				"article-block"
 			],
 			[
-				"tra",
-				"transparent"
-			],
-			[
 				"column",
 				"columns	(GUI.scss)"
 			],
@@ -328,10 +396,6 @@
 				"inline-block"
 			],
 			[
-				"ma",
-				"main-categories-list__item"
-			],
-			[
 				"h",
 				"hidden"
 			],
@@ -342,14 +406,6 @@
 			[
 				"de",
 				"default"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"po",
-				"pointStart"
 			],
 			[
 				"sum",
@@ -458,62 +514,6 @@
 			[
 				"rgb",
 				"rgba()"
-			],
-			[
-				"lis",
-				"list-style-position"
-			],
-			[
-				"cal",
-				"calculator"
-			],
-			[
-				"cl",
-				"click"
-			],
-			[
-				"space",
-				"space-between"
-			],
-			[
-				"nth",
-				"nth-child"
-			],
-			[
-				"slide",
-				"slider-about"
-			],
-			[
-				"ser",
-				"sertificates-slider"
-			],
-			[
-				"abo",
-				"about-content"
-			],
-			[
-				"about",
-				"about-content"
-			],
-			[
-				"abou",
-				"about-content"
-			],
-			[
-				"reiver",
-				"reviews-slider"
-			],
-			[
-				"revi",
-				"reviews-slider-item"
-			],
-			[
-				"paddin",
-				"padding-top"
-			],
-			[
-				"trans",
-				"transform"
 			]
 		]
 	},
@@ -591,10 +591,41 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/k-landing/markup"
+		"/Users/extiser/git/k-landing/markup",
+		"/Users/extiser/git/k-landing/markup/components",
+		"/Users/extiser/git/k-landing/markup/components/section-about",
+		"/Users/extiser/git/k-landing/markup/components/section-about/assets",
+		"/Users/extiser/git/k-landing/markup/pages",
+		"/Users/extiser/git/k-landing/markup/static",
+		"/Users/extiser/git/k-landing/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/k-landing/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/k-landing/markup/pages/index.jade",
+		"/Users/extiser/git/k-landing/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.scss",
+		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/common.scss",
+		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.js",
+		"/Users/extiser/git/k-landing/markup/components/header/header.scss",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/k-landing/markup/static/js/main.js",
+		"/Users/extiser/git/k-landing/markup/components/header/header.jade",
+		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.jade",
+		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.jade",
+		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.scss",
+		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.js",
+		"/Users/extiser/git/k-landing/markup/static/scss/vars.scss",
+		"/Users/extiser/git/sovets-pro/node_modules/foundation-sites/scss/util/_unit.scss",
+		"/Users/extiser/git/k-landing/markup/components/default_component_scheme.json",
 		"/Users/extiser/git/k-landing/tars-config.js",
 		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
@@ -697,36 +728,11 @@
 		"/Users/extiser/git/sovets-2015/tars-config.js",
 		"/Users/extiser/git/sovets-pro/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/article-block-small/article-block-small.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/_izeta_settings.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert/expert.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/expert/expert.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts/experts.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-login/top-login.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-ask/top-ask.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-search/top-search.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-search/top-search.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-ask/top-ask.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/vars.scss",
-		"/Users/extiser/git/sovets-2015/markup/static/scss/vars.scss",
-		"/Users/extiser/git/sovets-2015/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/libraries/font-awesome.scss",
-		"/Users/extiser/git/sovets-pro/node_modules/font-awesome/scss/_variables.scss",
-		"/Users/extiser/git/sovets-pro/node_modules/font-awesome/scss/font-awesome.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/topbar/topbar.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/topmenu/top-menu.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/block-big/block-big.jade",
-		"/Users/extiser/git/izeta-site/markup/modules/block-big-slide/block-big-slide.jade",
-		"/Users/extiser/git/izeta-site/markup/modules/block-big/block-big.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/block-big/blog-big.scss"
+		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.jade"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -741,6 +747,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"h1",
 			"img",
 			"шьп",
 			"offcanvas",
@@ -867,8 +874,7 @@
 			"&--bigdisplay",
 			"../images/",
 			".art-menu",
-			".art-menu ul li",
-			"parent"
+			".art-menu ul li"
 		],
 		"highlight": false,
 		"in_selection": false,

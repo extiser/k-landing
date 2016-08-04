@@ -1,0 +1,31 @@
+
+
+.section-gallery-slide-information {
+  position: absolute;
+  right: 0;
+  bottom: 280px;
+  left: 0;
+
+  box-sizing: border-box;
+  width: 530px;
+  margin: auto;
+  padding: 20px 30px;
+
+  border-radius: 20px;
+  background-color: rgba($white, .8);
+  &__title {
+    color: $orange;
+
+    font-family: $ProbaPro-Medium;
+    font-size: 30px;
+  }
+  &__text {
+    margin-top: 8px;
+    margin-bottom: 12px;
+
+    color: $purple;
+
+    font-family: $SourceSansPro-Regular;
+    font-size: 18px;
+  }
+}

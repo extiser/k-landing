@@ -1,18 +1,9 @@
-/*!
- * fullPage 2.8.1
- * https://github.com/alvarotrigo/fullPage.js
- * MIT licensed
- *
- * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
- * Contribution by Jhony0311
- */
 html.fp-enabled,
 .fp-enabled body {
   overflow: hidden;
 
   margin: 0;
   padding: 0;
-  /*Avoid flicker on slides transitions for mobile phones #336 */
 
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -20,18 +11,14 @@ html.fp-enabled,
   position: relative;
 
   height: 100%;
-  /* Touch detection for Windows 8 */
 
   -ms-touch-action: none;
-  /* IE 11 on Windows Phone 8.1*/
       touch-action: none;
 }
 .fp-section {
   position: relative;
 
-  -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
-     -moz-box-sizing: border-box; /* <=28 */
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 .fp-slide {
   float: left;
@@ -50,8 +37,7 @@ html.fp-enabled,
 
   height: 100%;
 
-  -webkit-transition: all .3s ease-out; /* Safari<=6 Android<=4.3 */
-          transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 .fp-section.fp-table,
 .fp-slide.fp-table {
@@ -68,48 +54,106 @@ html.fp-enabled,
 
   width: 100%;
   height: 100%;
-  // vertical-align: middle;
 }
 .fp-slidesContainer {
   position: relative;
 
   float: left;
 }
-.fp-controlArrow {
+
+
+// изменение кнопок управления слайдером
+
+.slide-control {
   position: absolute;
   z-index: 4;
-  top: 50%;
+  right: 0;
+  bottom: 60px;
+  left: 0;
 
-  width: 0;
-  height: 0;
-  margin-top: -38px;
+  width: 130px;
+  height: 70px;
+  margin: auto;
 
-  cursor: pointer;
-  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
-     -moz-user-select: none; /* mozilla browsers */
-      -ms-user-select: none; /* IE10+ */
-  -webkit-transform: translate3d(0,0,0);
-      -ms-transform: translate3d(0,0,0);
-          transform: translate3d(0,0,0);
+  border-radius: 40px;
+  background-color: $white;
+  &__arrow {
+    position: absolute;
+    top: 50%;
 
-  border-style: solid;
+    width: 50px;
+    height: 50px;
 
-  -khtml-user-select: none; /* webkit (konqueror) browsers */
-  &.fp-prev {
-    left: 15px;
+    transform: translateY(-50%);
 
-    width: 0;
+    border-radius: 50%;
+    // background-color: #ddd;
+    background-color: $orange;
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
 
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
-  }
-  &.fp-next {
-    right: 15px;
+      transform: translate(-50%,-50%);
 
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+      @include content;
+    }
+    &--prev {
+      right: 10px;
+      &:before {
+        @include bg($arrow-slide-right);
+      }
+    }
+    &--next {
+      left: 10px;
+      &:before {
+        @include bg($arrow-slide-left);
+      }
+    }
   }
 }
+
+
+
+// .fp-controlArrow {
+//   position: absolute;
+//   z-index: 4;
+//   top: 50%;
+
+//   width: 0;
+//   height: 0;
+//   margin-top: -38px;
+
+//   cursor: pointer;
+//   -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+//      -moz-user-select: none; /* mozilla browsers */
+//       -ms-user-select: none; /* IE10+ */
+//   -webkit-transform: translate3d(0,0,0);
+//       -ms-transform: translate3d(0,0,0);
+//           transform: translate3d(0,0,0);
+
+//   border-style: solid;
+
+//   -khtml-user-select: none; /* webkit (konqueror) browsers */
+//   &.fp-prev {
+//     left: 15px;
+
+//     width: 0;
+
+//     border-width: 38.5px 34px 38.5px 0;
+//     border-color: transparent #fff transparent transparent;
+//   }
+//   &.fp-next {
+//     right: 15px;
+
+//     border-width: 38.5px 0 38.5px 34px;
+//     border-color: transparent transparent transparent #fff;
+//   }
+// }
+
+
+
+
 .fp-scrollable {
   overflow: scroll;
 }
