@@ -1393,12 +1393,12 @@ html.fp-enabled,
   position: absolute;
   z-index: 1;
   top: 50%;
-  right: -164px;
+  right: -134px;
   width: 855px;
   height: 1313px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: url(../images/assets/section-top/baby2.png) no-repeat center;
+  background: url(../images/assets/section-top/baby3.png) no-repeat center;
 }
 
 .section-top-advantages {
