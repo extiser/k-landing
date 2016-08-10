@@ -5826,7 +5826,6 @@ if(e&&1===a.nodeType)while(c=e[d++])a.removeAttribute(c)}}),hb={set:function(a,b
 }));
 
 
-
 $('.jsChangeLanguageItem').on('click', function () {
   $(this).addClass('_active').siblings().removeClass('_active');
 });
@@ -5897,6 +5896,14 @@ $(document).ready(function() {
   });
 });
 
+$('a[data-click="modal"]').click(function (e) {
+  e.preventDefault();
+  $('.modal, .mask').addClass('active');
+});
+
+$('.mask').click(function () {
+  $('.mask, .modal').removeClass('active');
+});
 
 
 
@@ -5937,5 +5944,6 @@ $(document).ready(function() {
   //   }]
   // });
 // });
+
 
 
