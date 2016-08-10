@@ -1,8 +1,6 @@
 .section-elite {
   position: relative;
 
-  padding-bottom: 40px;
-
   background-color: $purple;
   &__wrapper {
     @extend .wrapper;
@@ -11,31 +9,48 @@
 
 .section-elite-slide {
   position: relative;
+
+  overflow: hidden;
+
+  @include flex(flex-start, center);
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .slick-control {
+    bottom: 250px;
+  }
   &--first {
-    img {
-      position: absolute;
-      top: 50%;
-      left: -616px;
+    .section-elite-slide__img {
+      position: relative;
 
-      transform: translateY(-50%);
+      overflow: hidden;
+
+      width: 685px;
+      height: 700px;
+      margin-right: 35px;
+      img {
+        position: absolute;
+        left: -616px;
+
+        width: auto;
+        height: auto;
+      }
     }
-    .slide-control {
-      bottom: 10px;
-      left: 721px;
+    .slick-control {
+      position: relative;
+      bottom: 0;
 
+      margin-top: 30px;
       margin-left: 0;
     }
   }
 }
 
 .section-elite-content {
-  position: absolute;
-  top: 50%;
-  left: 721px;
+  position: relative;
 
   max-width: 590px;
-
-  transform: translateY(-50%);
 }
 
 .section-elite-content-companies {

@@ -23,7 +23,8 @@ module.exports = {
         },
         "jsPathsToConcatBeforeModulesJs": [
             'node_modules/jquery/dist/jquery.min.js',
-            'node_modules/fullpage.js/jquery.fullPage.js'
+            'node_modules/fullpage.js/jquery.fullPage.js',
+            'node_modules/slick-carousel/slick/slick.js'
         ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],
@@ -52,7 +53,7 @@ module.exports = {
     "useArchiver": false,
     "ulimit": 4096,
     "templater": "jade",
-    "cssPreprocessor": "scss",
+    "cssPreprocessor": "sass",
     "useImagesForDisplayWithDpi": [
         96,
         192

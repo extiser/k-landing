@@ -1,29 +1,32 @@
 mixin section-elite(data)
-  .section-elite.section.active
+  .section-elite.section
     .section-elite__wrapper
-      .section-elite-slide.section-elite-slide--first.slide
-        img(src="%=static=%images/assets/section-elite/elite-1.png" alt="")
-        .section-elite-content
-          .title
-            h2.c-white Элитная среда
-            h3.c-orange Ваш ребенок растет и развивается в красоте и в интеллегентном окружении
-          .content
-            p.c-white Наш детский сад находится в инновационном бизнес-парке «Крылатские холмы», в котором расположены штаб-квартиры таких компаний как Microsoft, 3M, Adidas, Johnson&Johnson и Intel.
+      .js-slick
+        .section-elite-slide.section-elite-slide--first
+          .section-elite-slide__img
+            img(src="%=static=%images/assets/section-elite/elite-1.png" alt="")
+          .section-elite-content
+            .title
+              h2.c-white Элитная среда
+              h3.c-orange Ваш ребенок растет и развивается в красоте и в интеллегентном окружении
+            .content
+              p.c-white Наш детский сад находится в инновационном бизнес-парке «Крылатские холмы», в котором расположены штаб-квартиры таких компаний как Microsoft, 3M, Adidas, Johnson&Johnson и Intel.
 
-          .section-elite-content-companies
-            .section-elite-content-companies__item.section-elite-content-companies__item--microsoft Microsoft
-            .section-elite-content-companies__item.section-elite-content-companies__item--adidas Adidas
-            .section-elite-content-companies__item.section-elite-content-companies__item--intel Intel
-            .section-elite-content-companies__item.section-elite-content-companies__item--3m 3M
-            .section-elite-content-companies__item.section-elite-content-companies__item--jnj Johnson&Johnson
+            .section-elite-content-companies
+              .section-elite-content-companies__item.section-elite-content-companies__item--microsoft Microsoft
+              .section-elite-content-companies__item.section-elite-content-companies__item--adidas Adidas
+              .section-elite-content-companies__item.section-elite-content-companies__item--intel Intel
+              .section-elite-content-companies__item.section-elite-content-companies__item--3m 3M
+              .section-elite-content-companies__item.section-elite-content-companies__item--jnj Johnson&Johnson
 
-        .slide-control
-          .slide-control__arrow.slide-control__arrow--prev(class="fp-controlArrow")
-          .slide-control__arrow.slide-control__arrow--next(class="fp-controlArrow")
+            .slick-control
+              .slick-control__arrow.slick-control__arrow--prev(class="js-slick-arrow-prev")
+              .slick-control__arrow.slick-control__arrow--next(class="js-slick-arrow-next")
 
-      .section-elite-slide.slide
-        img(src="%=static=%images/assets/section-gallery/slide-1.jpg" alt="")
+        .section-elite-slide
+          .slick-control
+            .slick-control__arrow.slick-control__arrow--prev(class="js-slick-arrow-prev")
+            .slick-control__arrow.slick-control__arrow--next(class="js-slick-arrow-next")
+          img(src="%=static=%images/assets/section-gallery/slide-1.jpg" alt="")
 
-        .slide-control
-          .slide-control__arrow.slide-control__arrow--prev(class="fp-controlArrow")
-          .slide-control__arrow.slide-control__arrow--next(class="fp-controlArrow")
+          

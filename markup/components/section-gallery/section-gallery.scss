@@ -1,4 +1,15 @@
+.section-gallery {
+  overflow: hidden;
 
+  padding-top: 0 !important;
+  &__wrapper {
+    @extend .wrapper;
+  }
+}
+
+.section-gallery-slide {
+  max-width: 100%;
+}
 
 .section-gallery-slide-information {
   position: absolute;
