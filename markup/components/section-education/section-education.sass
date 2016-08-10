@@ -1,0 +1,96 @@
+// {}
+.section-education
+  position: relative
+
+  background-color: $white
+  &__wrapper
+    position: absolute
+    top: 50%
+
+    height: 100%
+    padding-right: 180px
+
+    transform: translateY(-50%)
+
+    @extend .wrapper
+    flex-wrap: wrap
+    @include flex(space-between, center)
+
+.section-education-left
+  position: relative
+  left: -20px
+
+  width: 630px
+  height: 500px
+  padding-top: 80px
+
+
+.section-education-right
+  position: relative
+
+  width: 540px
+  margin-left: 80px
+  padding-top: 90px
+
+.section-education-gallery
+  img
+    border-radius: 20px
+
+  .slide-control
+    right: 0
+    bottom: 30px
+    left: 0
+
+.section-education-bottom
+  position: relative
+  bottom: -50px
+  @include flex(space-between, flex-end)
+
+.section-education-bottom-item
+  position: relative
+  box-sizing: border-box
+  width: 198px
+
+  padding-top: 30px
+
+  border-radius: 20px 0 0 0
+  font-family: $SourceSansPro-Regular
+  font-size: 24px
+  text-align: center
+  color: $white
+  &:before
+    position: absolute
+    top: 30px
+    right: 0
+    left: 0
+
+    margin: auto
+
+    @include content
+  &--first
+    height: 195px
+    padding-left: 30px
+    padding-right: 30px
+    background-color: $green
+    padding-top: 110px
+    &:before
+      @include bg($kindergarten)
+  &--center
+    height: 245px
+
+    background-color: $dark-green
+    padding-top: 100px
+    &:before
+      @include bg($ib)
+  &--last
+    padding-top: 100px
+    height: 295px
+
+    border-radius: 20px 20px 0 0
+    background-color: $green
+    &:before
+      @include bg($university)
+
+
+
+

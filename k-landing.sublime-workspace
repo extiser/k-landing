@@ -4,8 +4,92 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"data-anchor	(section-top.jade)"
+			],
+			[
+				"sec",
+				"sections	(index.jade)"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
 				"marign",
-				"margin-top	(GUI.scss)"
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"marig",
+				"margin-top	(fullpage.scss)"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"section-gallery-sl",
+				"section-gallery-slide-information"
+			],
+			[
+				"section-gallery-s",
+				"section-gallery-slide-information"
+			],
+			[
+				"tarns",
+				"transform"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"section-map-information-con",
+				"section-map-information-contact__item"
+			],
+			[
+				"sect",
+				"section-map-information"
+			],
+			[
+				"tran",
+				"translateY"
 			],
 			[
 				"So",
@@ -16,16 +100,8 @@
 				"font-family"
 			],
 			[
-				"fon",
-				"font-size	(GUI.scss)"
-			],
-			[
 				"tra",
 				"translate"
-			],
-			[
-				"pad",
-				"padding-left	(GUI.scss)"
 			],
 			[
 				"Pro",
@@ -36,28 +112,8 @@
 				"section-about-advantages-item"
 			],
 			[
-				"sec",
-				"section-about"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"text",
-				"text-decoration"
-			],
-			[
-				"po",
-				"pointer"
-			],
-			[
 				"rb",
 				"rgba()"
-			],
-			[
-				"padd",
-				"padding-top"
 			],
 			[
 				"Pr",
@@ -172,10 +228,6 @@
 				"button	(GUI.scss)"
 			],
 			[
-				"text-",
-				"text-align"
-			],
-			[
 				"form",
 				"form__field"
 			],
@@ -246,10 +298,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"backgrou",
@@ -466,59 +514,67 @@
 			[
 				"foo",
 				"footer-phones__item"
-			],
-			[
-				"header-p",
-				"header-phones__item"
-			],
-			[
-				"cost",
-				"costDistance"
-			],
-			[
-				"cos",
-				"costDistance"
-			],
-			[
-				"point",
-				"pointStart"
-			],
-			[
-				"console",
-				"console.log();"
-			],
-			[
-				"tari",
-				"tarifs"
-			],
-			[
-				"defau",
-				"default	(data.js)"
-			],
-			[
-				"ta",
-				"tarifs"
-			],
-			[
-				"ea",
-				"ease-in-out"
-			],
-			[
-				"modal",
-				"modalItem"
-			],
-			[
-				"moda",
-				"modalItem"
-			],
-			[
-				"rgb",
-				"rgba()"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/section-top/section-top.jade",
+			"settings":
+			{
+				"buffer_size": 1134,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/header/header.jade",
+			"settings":
+			{
+				"buffer_size": 149,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/section-top/section-top.scss",
+			"settings":
+			{
+				"buffer_size": 2598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/section-elite/section-elite.jade",
+			"settings":
+			{
+				"buffer_size": 1683,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/top-menu/top-menu.jade",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/section-elite/section-elite.scss",
+			"settings":
+			{
+				"buffer_size": 1011,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/static/scss/GUI.scss",
+			"settings":
+			{
+				"buffer_size": 1289,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,24 +649,33 @@
 	[
 		"/Users/extiser/git/k-landing/markup",
 		"/Users/extiser/git/k-landing/markup/components",
-		"/Users/extiser/git/k-landing/markup/components/section-about",
-		"/Users/extiser/git/k-landing/markup/components/section-about/assets",
+		"/Users/extiser/git/k-landing/markup/components/head",
+		"/Users/extiser/git/k-landing/markup/components/header",
+		"/Users/extiser/git/k-landing/markup/components/section-map",
+		"/Users/extiser/git/k-landing/markup/components/section-top",
+		"/Users/extiser/git/k-landing/markup/components/top-menu",
 		"/Users/extiser/git/k-landing/markup/pages",
 		"/Users/extiser/git/k-landing/markup/static",
 		"/Users/extiser/git/k-landing/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/k-landing/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/k-landing/markup/pages/index.jade",
-		"/Users/extiser/git/k-landing/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.jade",
-		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.jade",
+		"/Users/extiser/git/k-landing/markup/pages/index.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.jade",
-		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.scss",
-		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/common.scss",
 		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.js",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.scss",
+		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/common.scss",
 		"/Users/extiser/git/k-landing/markup/components/header/header.scss",
 		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.scss",
 		"/Users/extiser/git/k-landing/markup/static/js/main.js",
@@ -722,13 +787,7 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/breadcrumbs/breadcrumbs.jade",
 		"/Users/extiser/git/sovets-pro/markup/modules/tips-hours/tips-hours.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/top-menu/top-menu.jade",
-		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/etc/zodiac-icons.scss",
-		"/Users/extiser/git/sovets-pro/tars-config.js",
-		"/Users/extiser/git/sovets-2015/tars-config.js",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/mixins.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/categories-main/categories-main.jade"
+		"/Users/extiser/git/sovets-pro/markup/modules/top-bar/top-bar.jade"
 	],
 	"find":
 	{
@@ -747,6 +806,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".section-gallery-control",
 			"h1",
 			"img",
 			"шьп",
@@ -873,8 +933,7 @@
 			"&--theone",
 			"&--bigdisplay",
 			"../images/",
-			".art-menu",
-			".art-menu ul li"
+			".art-menu"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -882,6 +941,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".slide-control",
 			"#",
 			".form__label.form__label--inline",
 			".experts-menu-list__wrap",
@@ -1008,8 +1068,7 @@
 			"b-in-photo",
 			"b-why",
 			"03dbaf",
-			"01a987",
-			"03bd97"
+			"01a987"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1020,8 +1079,224 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/section-top/section-top.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/header/header.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/components/section-top/section-top.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "markup/components/section-elite/section-elite.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1683,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "markup/components/top-menu/top-menu.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "markup/components/section-elite/section-elite.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1011,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								182,
+								182
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "markup/static/scss/GUI.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1289,
+								1289
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1353.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1068,7 +1343,7 @@
 	"project": "k-landing.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

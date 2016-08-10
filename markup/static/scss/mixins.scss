@@ -61,7 +61,7 @@
 }
 
 @mixin flex($justifyContent, $alignItems) {
-  display: flex;
+  display: flex !important;
   justify-content: $justifyContent;
   align-items: $alignItems;
 }

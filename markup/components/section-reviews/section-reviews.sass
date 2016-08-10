@@ -1,0 +1,106 @@
+.section-reviews
+  overflow: hidden
+  &__wrapper
+    @extend .wrapper
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    padding-left: 720px
+
+.section-reviews-left
+  position: absolute
+  top: 50%
+
+  left: 0;
+  width: 610px
+
+
+  transform: translateY(-52%)
+
+.section-reviews-right
+  max-width: 580px
+
+.section-reviews-slide-review
+  // transition: all .1s ease-in-out
+  box-sizing: border-box
+  width: 90%
+  height: 420px
+  padding-top: 40px
+  padding-right: 55px
+  padding-bottom: 38px
+  padding-left: 55px
+
+
+  color: $white
+
+  border-radius: 0 20px 20px 0
+  background-color: $purple
+
+.section-reviews-slide-review-bottom
+  font-family: $SourceSansPro-Regular
+
+
+  @include flex(space-between, center)
+
+.section-reviews-slide-review-user
+  @include flex(flex-start, center)
+  &__img
+    margin-right: 20px
+  &__name
+    color: $orange
+
+
+    font-size: 24px
+    line-height: 1
+  &__pro
+    color: $white
+
+
+    font-size: 16px
+
+.section-reviews-slide-review-video
+  position: relative
+
+
+  display: block
+
+
+  color: $orange
+
+
+  font-size: 18px
+  &:before
+    position: absolute
+    top: 50%
+    left: -36px
+
+
+    transform: translateY(-50%)
+
+    @include content
+
+    @include bg($camera)
+  &:hover
+    text-decoration: none
+
+// slick-slider
+.slick-vertical-slide
+  padding-right: 40px
+
+
+  opacity: .5
+  &.slick-current
+    // margin-top: -35px
+  &--active
+      margin-top: 30px
+      margin-bottom: 30px
+      padding-right: 0
+
+
+      opacity: 1
+      .section-reviews-slide-review
+        width: 100%
+        .section-reviews-slide-review-bottom
+          margin-top: 80px
+
+          
