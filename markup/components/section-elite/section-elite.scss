@@ -1,8 +1,15 @@
 .section-elite {
   position: relative;
 
+  padding-top: 0 !important;
+
   background-color: $purple;
   &__wrapper {
+    position: relative;
+    top: 50%;
+
+    transform: translateY(-50%);
+
     @extend .wrapper;
   }
 }
@@ -21,6 +28,10 @@
     bottom: 250px;
   }
   &--first {
+    position: relative;
+    top: 50%;
+
+    transform: translateY(15%);
     .section-elite-slide__img {
       position: relative;
 

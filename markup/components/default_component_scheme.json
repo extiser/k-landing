@@ -17,7 +17,7 @@
       "content": "mixin __componentName__(data)\n  .__componentName__"
     }, {
       "name": "__componentName__.__cssExtension__",
-      "content": ".__componentName__\n  "
+      "content": ".__componentName__ {}  "
     }, {
       "name": "__componentName__.js",
       "content": ""

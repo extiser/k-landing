@@ -53,7 +53,7 @@ module.exports = {
     "useArchiver": false,
     "ulimit": 4096,
     "templater": "jade",
-    "cssPreprocessor": "sass",
+    "cssPreprocessor": "scss",
     "useImagesForDisplayWithDpi": [
         96,
         192

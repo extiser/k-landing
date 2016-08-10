@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    // fixedElements: '.header',
+    // fixedElements: '.footer',
+    normalScrollElements: '.footer',
     paddingTop: '100px',
     slidesNavigation: false,
     controlArrows: false,

@@ -6,6 +6,7 @@ html(class="no-js", lang="ru")
   include ../components/change-language/change-language
   include ../components/top-menu/top-menu
   include ../components/call-me/call-me
+  include ../components/callback-form/callback-form
   include ../components/footer/footer
 
   //- sections
@@ -17,6 +18,7 @@ html(class="no-js", lang="ru")
   include ../components/section-education/section-education
   include ../components/section-teachers/section-teachers
   include ../components/section-reviews/section-reviews
+  include ../components/section-contact/section-contact
   //- sections
 
   head
@@ -32,7 +34,8 @@ html(class="no-js", lang="ru")
       +section-education
       +section-teachers
       +section-reviews
-    +footer()
+      +section-contact
+      +footer
 
     //- Main scripts. You can replace it, but I recommend you to leave it here
     script(src='%=static=%js/main%=hash=%%=min=%.js')

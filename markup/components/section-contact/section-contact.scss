@@ -1,0 +1,75 @@
+.section-contact {
+  background-color: $purple;
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+
+    height: 83%;
+
+    transform: translateY(-50%);
+
+    @extend .wrapper;
+    @include flex(center, stretch);
+  }
+  .cloud {
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    opacity: .3;
+  }
+  .elipsecircle {
+    top: 50%;
+    right: 4%;
+
+    transform: translateY(-50%);
+
+    opacity: .1;
+  }
+}
+
+.section-contact-form {
+  width: 42%;
+}
+
+.section-contact-partner {
+  position: relative;
+  top: 50%;
+
+  box-sizing: border-box;
+  width: 46%;
+  height: 83%;
+  padding-top: 50px;
+  padding-right: 65px;
+  padding-bottom: 44px;
+  padding-left: 30px;
+
+  transform: translateY(-50%);
+
+  border-radius: 0 20px 20px 0;
+  background-color: rgba($dark-purple, .8);
+  &__title {
+    margin-bottom: 50px;
+
+    color: $white;
+
+    font-family: $ProbaPro-SemiBold;
+    font-size: 40px;
+  }
+}
+
+.section-contact-partner-bottom {
+  position: absolute;
+  bottom: 44px;
+
+  width: 90%;
+
+  @include flex(space-between, center);
+  &__dou {
+    color: $orange;
+
+    font-family: $SourceSansPro-Semibold;
+    font-size: 18px;
+  }
+}

@@ -5826,12 +5826,15 @@ if(e&&1===a.nodeType)while(c=e[d++])a.removeAttribute(c)}}),hb={set:function(a,b
 }));
 
 
+
 $('.jsChangeLanguageItem').on('click', function () {
   $(this).addClass('_active').siblings().removeClass('_active');
 });
+
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    // fixedElements: '.header',
+    // fixedElements: '.footer',
+    normalScrollElements: '.footer',
     paddingTop: '100px',
     slidesNavigation: false,
     controlArrows: false,
@@ -5893,6 +5896,7 @@ $(document).ready(function() {
     }
   });
 });
+
 
 
 
