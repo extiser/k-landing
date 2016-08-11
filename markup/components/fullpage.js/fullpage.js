@@ -60,6 +60,17 @@ $(document).ready(function() {
       $('.js-slick-vertical').on('afterChange', function(event, slick, currentSlide, nextSlide){
         $('.slick-current').next().addClass('slick-vertical-slide--active').siblings().removeClass('slick-vertical-slide--active');
       });
+    },
+    onLeave: function(index, nextIndex, direction){
+      var leavingSection = $(this);
+
+      if(index == 9 && direction =='down'){
+        $('.header').slideUp(300);
+      }
+
+      else if(index == 10 && direction == 'up'){
+        $('.header').slideDown(300);
+      }
     }
   });
 });

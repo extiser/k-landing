@@ -1,0 +1,151 @@
+.section-education {
+  position: relative;
+
+  background-color: $white;
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+
+    height: 100%;
+    padding-right: 180px;
+
+    transform: translateY(-50%);
+
+    @extend .wrapper;
+    flex-wrap: wrap;
+    @include flex(space-between, flex-start);
+    @media screen and (max-width: 1360px) {
+      padding-right: 0;
+    }
+  }
+}
+.section-education-left {
+  position: relative;
+  top: 50%;
+  left: -20px;
+
+  width: 630px;
+  height: 500px;
+  padding-top: 80px;
+
+  transform: translateY(-50%);
+}
+
+.section-education-gallery {
+  img {
+    border-radius: 20px;
+  }
+  .slide-control {
+    right: 0;
+    bottom: 30px;
+    left: 0;
+  }
+}
+
+.section-education-right {
+  position: relative;
+  bottom: 0;
+
+  width: 540px;
+  margin-left: 80px;
+  padding-top: 90px;
+
+  align-self: flex-end;
+  @media screen and (max-width: 1360px) {
+    margin-right: 30px;
+    margin-left: 0;
+    padding-top: 0;
+  }
+}
+
+.section-education-bottom {
+  position: absolute;
+  bottom: 0;
+
+  margin-top: 40px;
+
+  @include flex(space-between, flex-end);
+  @media screen and (max-width: 1360px) {
+    position: relative;
+
+    margin-top: 0;
+  }
+}
+
+.section-education-bottom-item {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 198px;
+  padding-top: 30px;
+
+  text-align: center;
+
+  color: $white;
+  border-radius: 20px 0 0 0;
+
+  font-family: $SourceSansPro-Regular;
+  font-size: 24px;
+  @media screen and (max-width: 1360px) {
+    font-size: 20px;
+  }
+  &:before {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+
+    @include content;
+    @media screen and (max-width: 1360px) {
+      top: 25px;
+    }
+  }
+  &--first {
+    height: 195px;
+    padding-top: 110px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    background-color: $green;
+    &:before {
+      @include bg($kindergarten);
+    }
+    @media screen and (max-width: 1360px) {
+      height: 155px;
+      padding-top: 90px;
+    }
+  }
+  &--center {
+    height: 245px;
+    padding-top: 100px;
+
+    background-color: $dark-green;
+    &:before {
+      @include bg($ib);
+    }
+    @media screen and (max-width: 1360px) {
+      height: 195px;
+      padding-top: 90px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  &--last {
+    height: 295px;
+    padding-top: 100px;
+
+    border-radius: 20px 20px 0 0;
+    background-color: $green;
+    &:before {
+      @include bg($university);
+    }
+    @media screen and (max-width: 1360px) {
+      height: 235px;
+      padding-top: 90px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+}

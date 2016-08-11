@@ -1,0 +1,103 @@
+.section-teachers {
+  overflow: hidden;
+
+  background-color: $purple;
+  &__wrapper {
+    position: absolute;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    @extend .wrapper;
+    @include flex(flex-start, center);
+  }
+  .cloud {
+    z-index: 0;
+    top: -20px;
+    left: -227px;
+    @media screen and (max-width: 1360px) {
+      top: 50%;
+
+      transform: translateY(-50%);
+    }
+  }
+  .elipsecircle {
+    top: 170px;
+    right: 38px;
+  }
+}
+.section-teachers-left {
+  position: relative;
+  z-index: 1;
+
+  overflow: hidden;
+
+  width: 672px;
+  height: 951px;
+  @media screen and (max-width: 1360px) {
+    width: 632px;
+  }
+  img {
+    position: absolute;
+    bottom: -80px;
+    left: -51px;
+    @media screen and (max-width: 1360px) {
+      width: 100%;
+    }
+  }
+}
+
+.section-teachers-right {
+  position: absolute;
+  top: 50%;
+
+  max-width: 580px;
+  margin-left: 100px;
+
+  transform: translateY(-50%);
+  @media screen and (max-width: 1360px) {
+    margin-left: 0;
+  }
+}
+
+.section-teachers-list {
+  margin-top: 60px;
+
+  flex-wrap: wrap;
+  @include flex(space-between, center);
+  @media screen and (max-width: 1360px) {
+    margin-top: 30px;
+  }
+}
+
+.section-teachers-list-item {
+  width: 48%;
+  margin-bottom: 25px;
+
+  font-family: $SourceSansPro-Regular;
+
+  @include flex(flex-start, center);
+  @media screen and (max-width: 1360px) {
+    margin-bottom: 15px;
+  }
+  &__img {
+    margin-right: 20px;
+  }
+  &__name {
+    color: $orange;
+
+    font-size: 24px;
+    line-height: 1;
+    @media screen and (max-width: 1360px) {
+      font-size: 21px;
+    }
+  }
+  &__pro {
+    color: $white;
+
+    font-size: 16px;
+    @media screen and (max-width: 1360px) {
+      font-size: 14px;
+    }
+  }
+}

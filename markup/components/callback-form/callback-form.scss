@@ -6,6 +6,9 @@
 
   border-radius: 20px;
   background-color: $white;
+  @media screen and (max-width: 1360px) {
+    padding: 30px 40px;
+  }
   &__title,
   &__subtitle {
     text-align: center;
@@ -18,12 +21,20 @@
     color: $purple;
 
     font-size: 36px;
+    @media screen and (max-width: 1360px) {
+      margin-bottom: 18px;
+      font-size: 26px;
+    }
   }
   &__subtitle {
     color: $orange;
 
     font-size: 30px;
     line-height: 36px;
+    @media screen and (max-width: 1360px) {
+      font-size: 18px;
+      line-height: 22px;
+    }
   }
 }
 
@@ -37,6 +48,10 @@
 
   font-family: $SourceSansPro-Semibold;
   font-size: 18px;
+    @media screen and (max-width: 1360px) {
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
   &:before {
     position: relative;
 

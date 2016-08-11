@@ -36,6 +36,10 @@
 
 .section-about-right {
   width: 540px;
+
+  @media screen and (max-width: 1360px) {
+    margin-left: 120px;
+  }
 }
 
 .section-about-video {
@@ -62,14 +66,17 @@
 
       transform: translate(-40%,-50%);
 
-      @include bg($play);
       @include content;
+      @include bg($play);
     }
   }
 }
 
 .section-about-advantages {
   margin-top: 55px;
+  @media screen and (max-width: 1360px) {
+    margin-top: 35px;
+  }
 }
 
 .section-about-advantages-item {
@@ -87,6 +94,9 @@
   }
   &--fullday {
     margin-bottom: 40px;
+    @media screen and (max-width: 1360px) {
+      margin-bottom: 20px;
+    }
     &:before {
       @include bg($clock);
     }
