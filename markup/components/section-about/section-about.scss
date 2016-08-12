@@ -30,21 +30,54 @@
 }
 
 .section-about-left {
-  width: 580px;
-  height: 460px;
+  @media screen and (max-width: 2560px) {
+    position: relative;
+
+    width: 50%;
+    height: 50%;
+  }
+  @media screen and (max-width: 1680px) {
+    width: 580px;
+    height: 460px;
+  }
 }
 
 .section-about-right {
   width: 540px;
-
+  @media screen and (max-width: 2560px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 1680px) {
+    width: 540px;
+  }
   @media screen and (max-width: 1360px) {
     margin-left: 120px;
   }
 }
 
 .section-about-video {
-  position: absolute;
+  position: relative;
   left: -15px;
+  &__bg {
+    @media screen and (max-width: 2560px) {
+      width: 100%;
+      height: auto;
+    }
+    @media screen and (max-width: 1680px) {
+      width: auto;
+      height: auto;
+    }
+    img {
+      @media screen and (max-width: 2560px) {
+        width: 100%;
+        height: auto;
+      }
+      @media screen and (max-width: 1680px) {
+        width: auto;
+        height: auto;
+      }
+    }
+  }
   &__play {
     position: absolute;
     top: 50%;
@@ -59,6 +92,14 @@
 
     border-radius: 50%;
     background-color: $purple;
+    @media screen and (max-width: 2560px) {
+      width: 160px;
+      height: 160px;
+    }
+    @media screen and (max-width: 1680px) {
+      width: 80px;
+      height: 80px;
+    }
     &:before {
       position: absolute;
       top: 50%;
@@ -66,8 +107,8 @@
 
       transform: translate(-40%,-50%);
 
-      @include content;
       @include bg($play);
+      @include content;
     }
   }
 }
@@ -83,8 +124,12 @@
   position: relative;
 
   padding-left: 85px;
-
-  font-size: 18px;
+  @media screen and (max-width: 2560px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 1680px) {
+    font-size: 18px;
+  }
   &:before {
     position: absolute;
     top: 5px;
@@ -93,7 +138,9 @@
     @include content;
   }
   &--fullday {
-    margin-bottom: 40px;
+    @media screen and (max-width: 2560px) {
+      margin-bottom: 40px;
+    }
     @media screen and (max-width: 1360px) {
       margin-bottom: 20px;
     }

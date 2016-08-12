@@ -16,7 +16,10 @@ ol {
 
     font-family: $ProbaPro-SemiBold;
     font-size: 80px;
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 2560px) {
+      font-size: 100px;
+    }
+    @media screen and (max-width: 1680px) {
       margin-bottom: 15px;
 
       font-size: 60px;
@@ -30,7 +33,10 @@ ol {
 
     font-family: $SourceSansPro-Regular;
     font-size: 30px;
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 2560px) {
+      font-size: 45px;
+    }
+    @media screen and (max-width: 1680px) {
       margin-bottom: 25px;
 
       font-size: 25px;
@@ -47,7 +53,10 @@ ol {
 
     font-family: $SourceSansPro-Regular;
     font-size: 24px;
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 2560px) {
+      font-size: 34px;
+    }
+    @media screen and (max-width: 1680px) {
       margin-bottom: 25px;
 
       font-size: 18px;
@@ -161,7 +170,7 @@ ol {
     border-radius: 40px;
 
     line-height: 1;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 2560px) {
       padding-top: 20px;
       padding-right: 35px;
       padding-bottom: 21px;

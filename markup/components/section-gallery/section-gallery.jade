@@ -2,13 +2,13 @@ mixin section-gallery(data)
   .section-gallery.section(data-anchor="gallery")
     .section-gallery__wrapper
       .slide-control
-        .slide-control__arrow.slide-control__arrow--prev(class="fp-controlArrow")
-        .slide-control__arrow.slide-control__arrow--next(class="fp-controlArrow")
+        .slide-control__arrow.slide-control__arrow--prev(class="fp-controlArrow fp-prev")
+        .slide-control__arrow.slide-control__arrow--next(class="fp-controlArrow fp-next")
       .section-gallery-slide.slide.active
         .section-gallery-slide-information
           .section-gallery-slide-information__title Живописный мост
           .section-gallery-slide-information__text Окна нашего детского сада выходят на вид одного из самых красивых сооружений в Москве.
-        img(src="%=static=%images/assets/section-gallery/slide-1.jpg" alt="")
+        .section-gallery-slide-img(style="background: url(%=static=%images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;")
 
       .section-gallery-slide.slide
-        img(src="%=static=%images/assets/section-gallery/slide-1.jpg" alt="")
+        .section-gallery-slide-img(style="background: url(%=static=%images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;")
