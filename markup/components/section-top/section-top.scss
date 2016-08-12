@@ -41,10 +41,7 @@
 }
 
 .section-top-advantages {
-  max-width: 700px;
-
   font-family: $ProbaPro-Regular;
-  font-size: 24px;
 
   flex-wrap: wrap;
   @include flex(flex-start, flex-start);
@@ -53,7 +50,7 @@
 
     font-size: 34px;
   }
-  @media screen and (max-width: 1360px) {
+  @media screen and (max-width: 1680px) {
     max-width: 700px;
 
     font-size: 24px;
@@ -88,13 +85,15 @@
   position: relative;
   z-index: 1;
 
-  max-width: 700px;
   margin-top: 70px;
   margin-bottom: 50px;
 
   color: $white;
   @media screen and (max-width: 2560px) {
     max-width: 60%;
+  }
+  @media screen and (max-width: 1680px) {
+    max-width: 700px;
   }
   @media screen and (max-width: 1360px) {
     max-width: 50%;
@@ -103,12 +102,14 @@
   }
   h1 {
     font-family: $ProbaPro-SemiBold;
-    font-size: 100px;
     font-weight: normal;
-    line-height: 80px;
     @media screen and (max-width: 2560px) {
       font-size: 140px;
       line-height: 120px;
+    }
+    @media screen and (max-width: 1680px) {
+      font-size: 100px;
+      line-height: 80px;
     }
     @media screen and (max-width: 1360px) {
       font-size: 70px;
@@ -118,9 +119,11 @@
       display: block;
 
       font-family: $ProbaPro-Light;
-      line-height: 90px;
       @media screen and (max-width: 2560px) {
         line-height: 110px;
+      }
+      @media screen and (max-width: 1680px) {
+        line-height: 90px;
       }
       @media screen and (max-width: 1360px) {
         line-height: 70px;
@@ -139,17 +142,19 @@
   position: relative;
   z-index: 1;
 
-  max-width: 700px;
-
   color: $orange;
 
   font-family: $ProbaPro-Regular;
-  font-size: 30px;
   line-height: 1;
   @media screen and (max-width: 2560px) {
     max-width: 50%;
 
     font-size: 40px;
+  }
+  @media screen and (max-width: 1680px) {
+    max-width: 700px;
+
+    font-size: 30px;
   }
   @media screen and (max-width: 1360px) {
     max-width: 50%;
@@ -164,10 +169,7 @@
   display: inline-block;
 
   box-sizing: border-box;
-  width: 210px;
-  height: 40px;
   margin-left: 20px;
-  padding-left: 57px;
 
   text-decoration: none;
 
@@ -176,7 +178,6 @@
   border-radius: 40px;
 
   font-family: $SourceSansPro-Semibold;
-  line-height: 34px;
   @media screen and (max-width: 2560px) {
     width: 310px;
     height: 60px;
@@ -185,10 +186,17 @@
     font-size: 26px;
     line-height: 56px;
   }
+  @media screen and (max-width: 1680px) {
+    width: 210px;
+    height: 40px;
+    padding-left: 57px;
+
+    font-size: 16px;
+    line-height: 34px;
+  }
   &:before {
     position: absolute;
     top: 50%;
-    left: 20px;
 
     transform: translateY(-50%);
 
@@ -197,8 +205,8 @@
     @media screen and (max-width: 2560px) {
       left: 30px;
     }
-    @media screen and (max-width: 1360px) {
-      
+    @media screen and (max-width: 1680px) {
+      left: 20px;
     }
   }
 }
