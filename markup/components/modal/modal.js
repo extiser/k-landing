@@ -1,6 +1,8 @@
 $('a[data-click="modal"]').click(function (e) {
   e.preventDefault();
-  $('.modal, .mask').addClass('active');
+  var modalItem = $(this).data('item');
+  $(modalItem).addClass('active');
+  $('.mask').addClass('active');
 });
 
 $('.mask').click(function () {

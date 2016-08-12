@@ -51,10 +51,13 @@
       }
       img {
         position: relative;
-        left: -616px;
 
         width: auto;
         height: auto;
+        @media screen and (max-width: 1680px) {
+        left: -616px;
+
+        }
         @media screen and (max-width: 1360px) {
           left: -416px;
 

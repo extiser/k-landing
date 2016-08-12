@@ -1,12 +1,15 @@
-mixin callback-form(data)
+mixin callback-form(param)
   .callback-form
-    .callback-form__title Запишитесь в наш детский сад
-    .callback-form__subtitle Идет набор на 2016/17  год <br> для детей от 1,5 до 7 лет. Зачисление <br> по итогам тестирования.
-    .timer.js-timer
-      span.timer__item.js-timer-days 21д
-      span.timer__item.js-timer-hours 20ч
-      span.timer__item.js-timer-minutes 30м
-      span.timer__item.js-timer-seconds 14с
+    - if (param != 'notext') 
+      .callback-form__title Запишитесь в наш детский сад
+      .callback-form__subtitle Идет набор на 2016/17  год <br> для детей от 1,5 до 7 лет. Зачисление <br> по итогам тестирования.
+      .timer.js-timer
+        span.timer__item.js-timer-days 21д
+        span.timer__item.js-timer-hours 20ч
+        span.timer__item.js-timer-minutes 30м
+        span.timer__item.js-timer-seconds 14с
+    - else 
+      .callback-form__title Перезвоните мне
     form(method="" action="").form
       input(type="text" placeholder="Имя и фамилия").form-element
       input(type="phone" placeholder="+7(___)___-__-__").form-element

@@ -44,8 +44,8 @@
                             class="top-menu__item">Отзывы</a>
                     </div>
                 </div>
-                <div class="call-me"><a href="tel:+7 (495) 956-44-22" title="" class="call-me__number">+7 (495) 956-44-22</a>
-                    <a href="#" title="" class="call-me__callback"></a>
+                <div class="call-me"><a href="tel:+7 (495) 956-44-22" title="" class="call-me__number">+7 (495) 760-32-54</a>
+                    <a href="#" title="" data-click="modal" data-item="#modal2" class="call-me__callback"></a>
                 </div>
             </div>
         </header>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="section-top-set">Идет набор на 2016/17 год для детей от 1,5 до 7 лет. Зачисление по итогам тестирования.</div>
                     <div class="section-top-bottom">
-                        <div class="section-top-bottom__left"><a href="#" title="" data-click="modal" class="section-top-button button button--orange big">Записаться</a><a href="#about" title="" data-menuanchor="about" class="section-top-next">Перейти дальше</a>
+                        <div class="section-top-bottom__left"><a href="#" title="" data-click="modal" data-item="#modal1" class="section-top-button button button--orange big">Записаться</a><a href="#about" title="" data-menuanchor="about" class="section-top-next">Перейти дальше</a>
                         </div>
                         <div class="section-top-bottom__right">
                             <div class="section-top-social">
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="section-top-image"></div>
-                <div class="modal">
+                <div id="modal1" class="modal">
                     <div class="callback-form">
                         <div class="callback-form__title">Запишитесь в наш детский сад</div>
                         <div class="callback-form__subtitle">Идет набор на 2016/17 год
@@ -85,6 +85,17 @@
                             <br>по итогам тестирования.</div>
                         <div class="timer js-timer"><span class="timer__item js-timer-days">21д</span><span class="timer__item js-timer-hours">20ч</span><span class="timer__item js-timer-minutes">30м</span><span class="timer__item js-timer-seconds">14с</span>
                         </div>
+                        <form method="" action="" class="form">
+                            <input type="text" placeholder="Имя и фамилия" class="form-element">
+                            <input type="phone" placeholder="+7(___)___-__-__" class="form-element">
+                            <input type="submit" value="Записаться" class="button button--orange big form-button">
+                        </form>
+                    </div>
+                </div>
+                <div class="mask"></div>
+                <div id="modal2" class="modal">
+                    <div class="callback-form">
+                        <div class="callback-form__title">Перезвоните мне</div>
                         <form method="" action="" class="form">
                             <input type="text" placeholder="Имя и фамилия" class="form-element">
                             <input type="phone" placeholder="+7(___)___-__-__" class="form-element">
@@ -110,21 +121,14 @@
                     <div class="section-about-right">
                         <div class="section-about-title title">
                             <h2 class="c-white">О детском саде</h2>
-                            <h3 class="c-purple">Лучшие детские сады по версии <br>Ассоциации детских садов Москвы</h3>
+                            <h3 class="c-purple">Каждый детский сад компании <br>One! International School это:</h3>
                         </div>
                         <div class="section-about-content content">
-                            <p class="c-white">Для каждого нашего воспитанника мы организуем первичное тестирование и по итогам совместно с родителями разрабатываем траекторию развития ребенка.</p>
-                        </div>
-                        <div class="section-about-advantages">
-                            <div class="section-about-advantages-item section-about-advantages-item--fullday">
-                                <div class="section-about-advantages-item__title">Полный день</div>
-                                <div class="section-about-advantages-item__text">Мы работаем с 08:00 до 20:00. Обеспечиваем детей пятиразовым питанием. Очень многоинтересных занятий!</div>
-                            </div>
-                            <div class="section-about-advantages-item section-about-advantages-item--individual">
-                                <div class="section-about-advantages-item__title">Индивидуальный подход</div>
-                                <div class="section-about-advantages-item__text">Для каждого ребенка разрабатывается
-                                    <br>индивидуальный план развития.</div>
-                            </div>
+                            <p class="c-white">Индивидуальный подход к каждому ребенку (до 6 детей на 1 педагога Монтессори)</p>
+                            <p class="c-white">Передовые технологии (использование технологий Google, Lego Education)</p>
+                            <p class="c-white">Особая среда (на основе методики Монтессори, раннего билингвизма, классической музыки, живописи)</p>
+                            <p class="c-white">Двудипломная система образования IB — International Baccalaureate</p>
+                            <p class="c-white">Видеонаблюдение</p>
                         </div>
                     </div>
                 </div>

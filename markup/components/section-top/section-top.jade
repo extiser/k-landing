@@ -17,7 +17,7 @@ mixin section-top(data)
 
       .section-top-bottom
         .section-top-bottom__left
-          a(href="#" title="" data-click="modal").section-top-button.button.button--orange.big Записаться
+          a(href="#" title="" data-click="modal" data-item="#modal1").section-top-button.button.button--orange.big Записаться
           a(href="#about" title="" data-menuanchor="about").section-top-next Перейти дальше
         .section-top-bottom__right
           .section-top-social
@@ -25,4 +25,5 @@ mixin section-top(data)
             a(href="#" title="").section-top-social__item.section-top-social__item--vk
             a(href="#" title="").section-top-social__item.section-top-social__item--in
     .section-top-image
-    +modal
+    +modal1
+    +modal2

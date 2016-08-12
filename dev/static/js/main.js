@@ -5826,10 +5826,10 @@ if(e&&1===a.nodeType)while(c=e[d++])a.removeAttribute(c)}}),hb={set:function(a,b
 }));
 
 
-
 $('.jsChangeLanguageItem').on('click', function () {
   $(this).addClass('_active').siblings().removeClass('_active');
 });
+
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
@@ -5910,7 +5910,9 @@ $(document).ready(function() {
 
 $('a[data-click="modal"]').click(function (e) {
   e.preventDefault();
-  $('.modal, .mask').addClass('active');
+  var modalItem = $(this).data('item');
+  $(modalItem).addClass('active');
+  $('.mask').addClass('active');
 });
 
 $('.mask').click(function () {
