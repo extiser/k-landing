@@ -48,10 +48,15 @@
 
   flex-wrap: wrap;
   @include flex(flex-start, flex-start);
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 2560px) {
     max-width: 60%;
 
     font-size: 34px;
+  }
+  @media screen and (max-width: 1360px) {
+    max-width: 700px;
+
+    font-size: 24px;
   }
   &__item {
     position: relative;
@@ -88,7 +93,7 @@
   margin-bottom: 50px;
 
   color: $white;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 2560px) {
     max-width: 60%;
   }
   @media screen and (max-width: 1360px) {
@@ -101,7 +106,7 @@
     font-size: 100px;
     font-weight: normal;
     line-height: 80px;
-    @media screen and (max-width: 1920px) {
+    @media screen and (max-width: 2560px) {
       font-size: 140px;
       line-height: 120px;
     }
@@ -114,7 +119,7 @@
 
       font-family: $ProbaPro-Light;
       line-height: 90px;
-      @media screen and (max-width: 1920px) {
+      @media screen and (max-width: 2560px) {
         line-height: 110px;
       }
       @media screen and (max-width: 1360px) {
@@ -141,7 +146,7 @@
   font-family: $ProbaPro-Regular;
   font-size: 30px;
   line-height: 1;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 2560px) {
     max-width: 50%;
 
     font-size: 40px;
@@ -172,13 +177,13 @@
 
   font-family: $SourceSansPro-Semibold;
   line-height: 34px;
-  @media screen and (max-width: 1920px) {
+  @media screen and (max-width: 2560px) {
     width: 310px;
     height: 60px;
+    padding-left: 67px;
 
     font-size: 26px;
     line-height: 56px;
-    padding-left: 67px;
   }
   &:before {
     position: absolute;
@@ -187,10 +192,13 @@
 
     transform: translateY(-50%);
 
-    @include content;
     @include bg($arrow-bottom);
-  @media screen and (max-width: 1920px) {
-    left: 30px;
-  }
+    @include content;
+    @media screen and (max-width: 2560px) {
+      left: 30px;
+    }
+    @media screen and (max-width: 1360px) {
+      
+    }
   }
 }
