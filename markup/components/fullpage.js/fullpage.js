@@ -41,7 +41,7 @@ $(document).ready(function() {
         vertical: true,
         // verticalSwiping: true,
         // centerMode: true,
-        autoplay: true,
+        // autoplay: true,
         // adaptiveHeight: true,
         responsive: [{
           breakpoint: 1024,

@@ -80,7 +80,6 @@ ol {
       color: $white;
 
       font-family: $SourceSansPro-Regular;
-      font-size: 24px;
       &:before {
         position: absolute;
         left: 0;
@@ -89,6 +88,12 @@ ol {
         counter-increment: item;
 
         color: #ccc;
+      }
+      @media screen and (max-width: 2560px) {
+        font-size: 36px;
+      }
+      @media screen and (max-width: 1680px) {
+        font-size: 24px;
       }
       @media screen and (max-width: 1440px) {
         font-size: 22px;
@@ -110,6 +115,10 @@ ol {
 
 .c-orange {
   color: $orange;
+}
+
+.c-green {
+  color: $green;
 }
 
 .elipse {
@@ -206,6 +215,12 @@ ol {
 .form {
   width: 360px;
   margin: auto;
+  @media screen and (max-width: 2560px) {
+    width: 420px;
+  }
+  @media screen and (max-width: 1680px) {
+    width: 360px;
+  }
 }
 
 .form-element {
@@ -213,13 +228,24 @@ ol {
 
   box-sizing: border-box;
   width: 100%;
-  height: 50px;
-  margin-bottom: 20px;
-  padding-left: 27px;
 
   border: 0;
   border-radius: 40px;
   background-color: #eee;
+  @media screen and (max-width: 2560px) {
+    height: 70px;
+    margin-bottom: 30px;
+    padding-left: 37px;
+
+    font-size: 21px;
+  }
+  @media screen and (max-width: 1680px) {
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 27px;
+
+    font-size: 16px;
+  }
   &:focus {
     outline: none;
   }

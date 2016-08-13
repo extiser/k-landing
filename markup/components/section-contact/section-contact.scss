@@ -40,15 +40,23 @@
   box-sizing: border-box;
   width: 46%;
   height: 83%;
-  padding-top: 50px;
-  padding-right: 65px;
-  padding-bottom: 44px;
-  padding-left: 30px;
 
   transform: translateY(-50%);
 
   border-radius: 0 20px 20px 0;
   background-color: rgba($dark-purple, .8);
+  @media screen and (max-width: 2560px) {
+    padding-top: 60px;
+    padding-right: 75px;
+    padding-bottom: 54px;
+    padding-left: 40px;
+  }
+  @media screen and (max-width: 1680px) {
+    padding-top: 50px;
+    padding-right: 65px;
+    padding-bottom: 44px;
+    padding-left: 30px;
+  }
   @media screen and (max-width: 1360px) {
     padding-top: 40px;
     padding-right: 45px;
@@ -61,7 +69,12 @@
     color: $white;
 
     font-family: $ProbaPro-SemiBold;
-    font-size: 40px;
+    @media screen and (max-width: 2560px) {
+      font-size: 54px;
+    }
+    @media screen and (max-width: 1680px) {
+      font-size: 40px;
+    }
     @media screen and (max-width: 1360px) {
       margin-bottom: 20px;
 
@@ -82,11 +95,14 @@
 
     font-family: $SourceSansPro-Semibold;
     font-size: 18px;
-
-
-
-      @media screen and (max-width: 1360px) {
-        font-size: 16px;
-      }
+    @media screen and (max-width: 2560px) {
+      font-size: 24px;
+    }
+    @media screen and (max-width: 1680px) {
+      font-size: 18px;
+    }
+    @media screen and (max-width: 1360px) {
+      font-size: 16px;
+    }
   }
 }

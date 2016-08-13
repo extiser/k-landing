@@ -9,8 +9,11 @@
     transform: translateY(-50%);
 
     @extend .wrapper;
+    @media screen and (max-width: 1680px) {
+      padding-left: 720px;
+    }
     @media screen and (max-width: 1360px) {
-      padding-left: 620px;
+      // padding-left: 620px;
     }
   }
 }
@@ -19,18 +22,61 @@
   top: 50%;
   left: 0;
 
-  width: 610px;
-
   transform: translateY(-52%);
+  @media screen and (max-width: 2560px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 1680px) {
+    width: 610px;
+  }
 }
 .section-reviews-right {
-  max-width: 580px;
+  @media screen and (max-width: 2560px) {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+
+    width: 40%;
+
+    transform: translateY(-50%);
+  }
+  @media screen and (max-width: 1680px) {
+    left: 50%;
+
+    width: 35%;
+  }
 }
+
+.section-reviews-content-block {
+  &__title {
+    margin-bottom: 20px;
+
+    color: $orange;
+    @media screen and (max-width: 2560px) {
+      font-size: 45px;
+    }
+    @media screen and (max-width: 1680px) {
+      font-size: 30px;
+    }
+    @media screen and (max-width: 1360px) {
+      font-size: 24px;
+    }
+  }
+  &__question {
+    display: inline-block;
+
+    margin-left: 10px;
+
+    vertical-align: middle;
+
+    @include bg($question);
+  }
+}
+
 .section-reviews-slide-review {
   // transition: all .1s ease-in-out
   box-sizing: border-box;
   width: 90%;
-  height: 420px;
   padding-top: 40px;
   padding-right: 55px;
   padding-bottom: 38px;
@@ -39,6 +85,12 @@
   color: $white;
   border-radius: 0 20px 20px 0;
   background-color: $purple;
+  @media screen and (max-width: 2560px) {
+    height: 65vh;
+  }
+  @media screen and (max-width: 1680px) {
+    height: 420px;
+  }
   @media screen and (max-width: 1360px) {
     height: 340px;
     padding-top: 30px;
@@ -93,8 +145,8 @@
 
     transform: translateY(-50%);
 
-    @include content;
     @include bg($camera);
+    @include content;
   }
   &:hover {
     text-decoration: none;
