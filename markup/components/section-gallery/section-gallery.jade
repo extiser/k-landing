@@ -2,8 +2,8 @@ mixin section-gallery(data)
   .section-gallery.section(data-anchor="gallery")
     .section-gallery__wrapper
       .slide-control
-        .slide-control__arrow.slide-control__arrow--prev(class="fp-controlArrow fp-prev")
-        .slide-control__arrow.slide-control__arrow--next(class="fp-controlArrow fp-next")
+        .slide-control__arrow.slide-control__arrow--prev(class="fp-controlArrow fp-next")
+        .slide-control__arrow.slide-control__arrow--next(class="fp-controlArrow fp-prev")
       .section-gallery-slide.slide.active
         .section-gallery-slide-information
           .section-gallery-slide-information__title Живописный мост
@@ -11,4 +11,13 @@ mixin section-gallery(data)
         .section-gallery-slide-img(style="background: url(%=static=%images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;")
 
       .section-gallery-slide.slide
-        .section-gallery-slide-img(style="background: url(%=static=%images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;")
+        .section-gallery-slide-information
+          .section-gallery-slide-information__title Близость природы
+          .section-gallery-slide-information__text Наш сад расположен в уникальном ландшафтном заказнике, который входит в состав природно-исторического парка «Москворецкий».
+        .section-gallery-slide-img(style="background: url(%=static=%images/assets/section-gallery/slide-2.jpg) 50% 50% no-repeat;")
+
+      .section-gallery-slide.slide
+        .section-gallery-slide-information
+          .section-gallery-slide-information__title Элитная среда
+          .section-gallery-slide-information__text Ваш ребенок растет и развивается в красоте и в интеллегентном окружении – в инновационном бизнес-парке «Крылатские холмы».
+        .section-gallery-slide-img(style="background: url(%=static=%images/assets/section-gallery/slide-3.jpg) 50% 50% no-repeat;")

@@ -132,75 +132,18 @@ html.fp-enabled,
   }
 }
 
-#fp-nav ul,
-.fp-slidesNav ul {
-  margin: 0;
-  padding: 0;
-  li {
-    position: relative;
-
-    display: block;
-
-    width: 14px;
-    height: 13px;
-    margin: 7px;
-    a {
-      position: relative;
-      z-index: 1;
-
-      display: block;
-
-      width: 100%;
-      height: 100%;
-
-      cursor: pointer;
-      text-decoration: none;
-      &.active span {
-        width: 12px;
-        height: 12px;
-        margin: -6px 0 0 -6px;
-
-        border-radius: 100%;
-        #fp-nav ul li:hover &,
-        #fp-slidesNav ul li:hover & {
-          width: 12px;
-          height: 12px;
-          margin: -6px 0 0 -6px;
-
-          border-radius: 100%;
-        }
-      }
-      span {
-        position: absolute;
-        z-index: 1;
-        top: 50%;
-        left: 50%;
-
-        width: 4px;
-        height: 4px;
-        margin: -2px 0 0 -2px;
-
-        -webkit-transition: all .1s ease-in-out;
-           -moz-transition: all .1s ease-in-out;
-             -o-transition: all .1s ease-in-out;
-                transition: all .1s ease-in-out;
-
-        border: 0;
-        border-radius: 50%;
-        background: #333;
-      }
-    }
-    &:hover {
-      a {
-        span {
-          width: 10px;
-          height: 10px;
-          margin: -5px 0 0 -5px;
-        }
-      }
-    }
-  }
-}
+// #fp-nav ul {
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+//   li {
+//     a {
+//       &.active {
+        
+//       }
+//     }
+//   }
+// }
 #fp-nav {
   position: fixed;
   z-index: 100;

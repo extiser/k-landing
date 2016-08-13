@@ -9,6 +9,7 @@ html(class="no-js", lang="ru")
   include ../components/callback-form/callback-form
   include ../components/footer/footer
   include ../components/modal/modal
+  include ../components/fp-nav/fp-nav
 
   //- sections
   include ../components/section-top/section-top
@@ -26,6 +27,7 @@ html(class="no-js", lang="ru")
     +head(head.defaults)
   body
     +header
+    +fp-nav
     #fullpage
       +section-top
       +section-about

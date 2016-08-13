@@ -46,7 +46,7 @@
     position: absolute;
     @media screen and (max-width: 2560px) {
       bottom: 0;
-
+      width: auto;
       height: 100%;
     }
     @media screen and (max-width: 1680px) {
@@ -62,7 +62,7 @@
 
   transform: translateY(-50%);
   @media screen and (max-width: 2560px) {
-    left: 50%;
+    left: 55%;
 
     width: 40%;
   }

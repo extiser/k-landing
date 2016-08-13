@@ -5826,18 +5826,21 @@ if(e&&1===a.nodeType)while(c=e[d++])a.removeAttribute(c)}}),hb={set:function(a,b
 }));
 
 
+
 $('.jsChangeLanguageItem').on('click', function () {
   $(this).addClass('_active').siblings().removeClass('_active');
 });
 
-
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    // fixedElements: '.footer',
-    normalScrollElements: '.footer',
     paddingTop: '100px',
-    slidesNavigation: false,
     controlArrows: false,
+        menu: '#fp-nav',
+        // lockAnchors: true,
+        anchors:['top', 'about', 'map', 'gallery', 'elite', 'education', 'teachers', 'reviews', 'footer'],
+        navigationPosition: 'right',
+        navigation: true,
+        animateAnchor: true,
     afterRender: function(){
       $('.js-slick').slick({
         infinite: true,
@@ -5874,7 +5877,7 @@ $(document).ready(function() {
         vertical: true,
         // verticalSwiping: true,
         // centerMode: true,
-        // autoplay: true,
+        autoplay: true,
         // adaptiveHeight: true,
         responsive: [{
           breakpoint: 1024,
@@ -5904,6 +5907,18 @@ $(document).ready(function() {
       else if(index == 10 && direction == 'up'){
         $('.header').slideDown(300);
       }
+
+      if (nextIndex == 3 || nextIndex == 9 || nextIndex == 10) {
+        $('#fp-nav').hide();
+      } else {
+        $('#fp-nav').show();
+      }
+
+      if (nextIndex == 6 || nextIndex == 8) {
+        $('#fp-nav').addClass('purple');
+      } else {
+        $('#fp-nav').removeClass('purple');
+      }
     }
   });
 });
@@ -5912,7 +5927,7 @@ $('a[data-click="modal"]').click(function (e) {
   e.preventDefault();
   var modalItem = $(this).data('item');
   $(modalItem).addClass('active');
-  $('.mask').addClass('active');
+  $(modalItem).next('.mask').addClass('active');
 });
 
 $('.mask').click(function () {

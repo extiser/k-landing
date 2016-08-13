@@ -49,6 +49,20 @@
                 </div>
             </div>
         </header>
+        <div id="modal2" class="modal">
+            <div class="callback-form">
+                <div class="callback-form__title">Перезвоните мне</div>
+                <form method="" action="" class="form">
+                    <input type="text" placeholder="Имя и фамилия" class="form-element">
+                    <input type="phone" placeholder="+7(___)___-__-__" class="form-element">
+                    <input type="submit" value="Записаться" class="button button--orange big form-button">
+                </form>
+            </div>
+        </div>
+        <div class="mask"></div>
+        <div id="fp-nav" class="fp-nav right">
+            <ul></ul>
+        </div>
         <div id="fullpage">
             <div data-anchor="top" class="section section-top">
                 <div class="section-top__wrapper">
@@ -93,17 +107,6 @@
                     </div>
                 </div>
                 <div class="mask"></div>
-                <div id="modal2" class="modal">
-                    <div class="callback-form">
-                        <div class="callback-form__title">Перезвоните мне</div>
-                        <form method="" action="" class="form">
-                            <input type="text" placeholder="Имя и фамилия" class="form-element">
-                            <input type="phone" placeholder="+7(___)___-__-__" class="form-element">
-                            <input type="submit" value="Записаться" class="button button--orange big form-button">
-                        </form>
-                    </div>
-                </div>
-                <div class="mask"></div>
             </div>
             <div data-anchor="about" class="section section-about">
                 <div class="section-about__wrapper">
@@ -112,7 +115,7 @@
                     <div class="elipsecircle"></div>
                     <div class="section-about-left">
                         <div class="section-about-video">
-                            <a href="#" title="" class="section-about-video__play"></a>
+                            <a href="https://vimeo.com/159956067" title="" target="_blank" class="section-about-video__play"></a>
                             <div class="section-about-video__bg">
                                 <img src="static/images/assets/section-about/video-bg.png" alt="">
                             </div>
@@ -157,8 +160,8 @@
             <div data-anchor="gallery" class="section-gallery section">
                 <div class="section-gallery__wrapper">
                     <div class="slide-control">
-                        <div class="slide-control__arrow slide-control__arrow--prev fp-controlArrow fp-prev"></div>
-                        <div class="slide-control__arrow slide-control__arrow--next fp-controlArrow fp-next"></div>
+                        <div class="slide-control__arrow slide-control__arrow--prev fp-controlArrow fp-next"></div>
+                        <div class="slide-control__arrow slide-control__arrow--next fp-controlArrow fp-prev"></div>
                     </div>
                     <div class="section-gallery-slide slide active">
                         <div class="section-gallery-slide-information">
@@ -168,7 +171,18 @@
                         <div style="background: url(static/images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;" class="section-gallery-slide-img"></div>
                     </div>
                     <div class="section-gallery-slide slide">
-                        <div style="background: url(static/images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;" class="section-gallery-slide-img"></div>
+                        <div class="section-gallery-slide-information">
+                            <div class="section-gallery-slide-information__title">Близость природы</div>
+                            <div class="section-gallery-slide-information__text">Наш сад расположен в уникальном ландшафтном заказнике, который входит в состав природно-исторического парка «Москворецкий».</div>
+                        </div>
+                        <div style="background: url(static/images/assets/section-gallery/slide-2.jpg) 50% 50% no-repeat;" class="section-gallery-slide-img"></div>
+                    </div>
+                    <div class="section-gallery-slide slide">
+                        <div class="section-gallery-slide-information">
+                            <div class="section-gallery-slide-information__title">Элитная среда</div>
+                            <div class="section-gallery-slide-information__text">Ваш ребенок растет и развивается в красоте и в интеллегентном окружении – в инновационном бизнес-парке «Крылатские холмы».</div>
+                        </div>
+                        <div style="background: url(static/images/assets/section-gallery/slide-3.jpg) 50% 50% no-repeat;" class="section-gallery-slide-img"></div>
                     </div>
                 </div>
             </div>
@@ -205,7 +219,35 @@
                                 <div class="slick-control__arrow slick-control__arrow--prev js-slick-arrow-prev"></div>
                                 <div class="slick-control__arrow slick-control__arrow--next js-slick-arrow-next"></div>
                             </div>
-                            <div style="background: url(static/images/assets/section-gallery/slide-1.jpg) 50% 50% no-repeat;" class="section-elite-slide-img"></div>
+                            <div style="background: url(static/images/assets/section-elite/elite-2.jpg) 50% 50% no-repeat;" class="section-elite-slide-img"></div>
+                        </div>
+                        <div class="section-elite-slide">
+                            <div class="slick-control">
+                                <div class="slick-control__arrow slick-control__arrow--prev js-slick-arrow-prev"></div>
+                                <div class="slick-control__arrow slick-control__arrow--next js-slick-arrow-next"></div>
+                            </div>
+                            <div style="background: url(static/images/assets/section-elite/elite-3.jpg) 50% 50% no-repeat;" class="section-elite-slide-img"></div>
+                        </div>
+                        <div class="section-elite-slide">
+                            <div class="slick-control">
+                                <div class="slick-control__arrow slick-control__arrow--prev js-slick-arrow-prev"></div>
+                                <div class="slick-control__arrow slick-control__arrow--next js-slick-arrow-next"></div>
+                            </div>
+                            <div style="background: url(static/images/assets/section-elite/elite-4.jpg) 50% 50% no-repeat;" class="section-elite-slide-img"></div>
+                        </div>
+                        <div class="section-elite-slide">
+                            <div class="slick-control">
+                                <div class="slick-control__arrow slick-control__arrow--prev js-slick-arrow-prev"></div>
+                                <div class="slick-control__arrow slick-control__arrow--next js-slick-arrow-next"></div>
+                            </div>
+                            <div style="background: url(static/images/assets/section-elite/elite-5.jpg) 50% 50% no-repeat;" class="section-elite-slide-img"></div>
+                        </div>
+                        <div class="section-elite-slide">
+                            <div class="slick-control">
+                                <div class="slick-control__arrow slick-control__arrow--prev js-slick-arrow-prev"></div>
+                                <div class="slick-control__arrow slick-control__arrow--next js-slick-arrow-next"></div>
+                            </div>
+                            <div style="background: url(static/images/assets/section-elite/elite-6.jpg) 50% 50% no-repeat;" class="section-elite-slide-img"></div>
                         </div>
                     </div>
                 </div>
@@ -219,10 +261,28 @@
                                 <div class="slide-control__arrow slide-control__arrow--next fp-controlArrow"></div>
                             </div>
                             <div class="section-education-gallery-slide slide">
-                                <img src="static/images/assets/section-education/slide-1.jpg" alt="">
+                                <div style="background: url('static/images/assets/section-education/slide-1.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
                             </div>
                             <div class="section-education-gallery-slide slide">
-                                <img src="static/images/assets/section-education/slide-1.jpg" alt="">
+                                <div style="background: url('static/images/assets/section-education/slide-2.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
+                            </div>
+                            <div class="section-education-gallery-slide slide">
+                                <div style="background: url('static/images/assets/section-education/slide-3.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
+                            </div>
+                            <div class="section-education-gallery-slide slide">
+                                <div style="background: url('static/images/assets/section-education/slide-4.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
+                            </div>
+                            <div class="section-education-gallery-slide slide">
+                                <div style="background: url('static/images/assets/section-education/slide-5.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
+                            </div>
+                            <div class="section-education-gallery-slide slide">
+                                <div style="background: url('static/images/assets/section-education/slide-6.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
+                            </div>
+                            <div class="section-education-gallery-slide slide">
+                                <div style="background: url('static/images/assets/section-education/slide-7.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
+                            </div>
+                            <div class="section-education-gallery-slide slide">
+                                <div style="background: url('static/images/assets/section-education/slide-8.jpg') no-repeat;" class="section-education-gallery-slide-image"></div>
                             </div>
                         </div>
                     </div>
@@ -328,8 +388,8 @@
                             <div class="slick-vertical-slide">
                                 <div class="section-reviews-slide-review">
                                     <div class="content">
-                                        <p>Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.</p>
-                                        <p>Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.</p>
+                                        <p>Для меня самое важное, чтобы у моего ребенка было лучшее образование. В нашем мире невероятно важно получать современное образование с самого раннего возраста. Так, я уверен, что One! International School – очень
+                                            важная ступень. И я думаю, я уверен, что если второй ступенью будет школа, у моей дочери будет хорошее образование.</p>
                                     </div>
                                     <div class="section-reviews-slide-review-bottom">
                                         <div class="section-reviews-slide-review-user">
@@ -337,18 +397,18 @@
                                                 <img src="static/images/assets/section-reviews/user.png" alt>
                                             </div>
                                             <div class="section-reviews-slide-review-user__content">
-                                                <div class="section-reviews-slide-review-user__name">Мария</div>
-                                                <div class="section-reviews-slide-review-user__pro">Мама Насти Волковой</div>
+                                                <div class="section-reviews-slide-review-user__name">Папа</div>
+                                                <div class="section-reviews-slide-review-user__pro">Эммы Булаевой</div>
                                             </div>
-                                        </div><a href="#" title="" class="section-reviews-slide-review-video">Видео</a>
+                                        </div><a href="https://vimeo.com/160257420" title="" target="_blank" class="section-reviews-slide-review-video">Видео</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="slick-vertical-slide">
                                 <div class="section-reviews-slide-review">
                                     <div class="content">
-                                        <p>Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.</p>
-                                        <p>Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.</p>
+                                        <p>Я думаю, что школа должна в первую очередь продолжать то направление, которое выбрал детский сад, и развивать те навыки, те знания, которые у него уже будут. И должно быть отношение достаточно личностное к каждому
+                                            ребенку.</p>
                                     </div>
                                     <div class="section-reviews-slide-review-bottom">
                                         <div class="section-reviews-slide-review-user">
@@ -356,18 +416,18 @@
                                                 <img src="static/images/assets/section-reviews/user.png" alt>
                                             </div>
                                             <div class="section-reviews-slide-review-user__content">
-                                                <div class="section-reviews-slide-review-user__name">Мария</div>
-                                                <div class="section-reviews-slide-review-user__pro">Мама Насти Волковой</div>
+                                                <div class="section-reviews-slide-review-user__name">Папа</div>
+                                                <div class="section-reviews-slide-review-user__pro">Ильи Корякина</div>
                                             </div>
-                                        </div><a href="#" title="" class="section-reviews-slide-review-video">Видео</a>
+                                        </div><a href="https://vimeo.com/160257113" title="" target="_blank" class="section-reviews-slide-review-video">Видео</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="slick-vertical-slide">
                                 <div class="section-reviews-slide-review">
                                     <div class="content">
-                                        <p>Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.</p>
-                                        <p>Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.</p>
+                                        <p>Мы были приятно впечатлены атмосферой, знакомством с Максимом генеральным директором, и мы решили начать ходить сюда. Нам кажется, что это было правильное решение. Я имею в виду правильный выбор, так как мне очень
+                                            нравится атмосфера, педагоги, которые вовлекают нас в учебный процесс в течение дня.</p>
                                     </div>
                                     <div class="section-reviews-slide-review-bottom">
                                         <div class="section-reviews-slide-review-user">
@@ -375,11 +435,10 @@
                                                 <img src="static/images/assets/section-reviews/user.png" alt>
                                             </div>
                                             <div class="section-reviews-slide-review-user__content">
-                                                <div class="section-reviews-slide-review-user__name">Мария</div>
-                                                <div class="section-reviews-slide-review-user__pro">Мама Насти Волковой</div>
+                                                <div class="section-reviews-slide-review-user__name">Мама</div>
+                                                <div class="section-reviews-slide-review-user__pro">Томаззо Росси</div>
                                             </div>
-                                        </div>
-                                        <div class="section-reviews-slide-review-video">Видео</div>
+                                        </div><a href="https://vimeo.com/160257526" title="" target="_blank" class="section-reviews-slide-review-video">Видео</a>
                                     </div>
                                 </div>
                             </div>
