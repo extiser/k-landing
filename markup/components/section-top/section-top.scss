@@ -1,4 +1,6 @@
 .section-top {
+  position: relative;
+
   overflow: hidden;
 
   box-sizing: border-box;
@@ -6,10 +8,12 @@
   background-color: $purple;
   &__wrapper {
     position: absolute;
+    z-index: 2;
     top: 50%;
     right: 0;
     left: 0;
 
+    padding-right: 87px;
     padding-left: 87px;
 
     transform: translateY(-50%);
@@ -17,7 +21,11 @@
     @extend .wrapper;
   }
   .cloud {
+    z-index: 0;
+    top: 50%;
     right: -178px;
+
+    transform: translateY(-50%);
   }
   .elipse {
     bottom: -220px;
@@ -200,13 +208,62 @@
 
     transform: translateY(-50%);
 
-    @include bg($arrow-bottom);
     @include content;
+    @include bg($arrow-bottom);
     @media screen and (max-width: 2560px) {
       left: 30px;
     }
     @media screen and (max-width: 1680px) {
       left: 20px;
+    }
+  }
+}
+
+
+.section-top-social {
+  position: relative;
+  z-index: 99;
+  &__item {
+    position: relative;
+
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+    vertical-align: middle;
+
+    border-radius: 50%;
+    background-color: $orange;
+
+    @include transition;
+    &:hover {
+      background-color: $orange + #111;
+    }
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-50%,-50%);
+
+      @include content;
+    }
+    &--fb {
+      &:before {
+        @include bg($fb);
+      }
+    }
+    &--vk {
+      &:before {
+        @include bg($vk);
+      }
+    }
+    &--in {
+      &:before {
+        @include bg($in);
+      }
     }
   }
 }

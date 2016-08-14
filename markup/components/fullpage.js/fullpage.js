@@ -2,12 +2,13 @@ $(document).ready(function() {
   $('#fullpage').fullpage({
     paddingTop: '100px',
     controlArrows: false,
-        menu: '#fp-nav',
-        // lockAnchors: true,
-        anchors:['top', 'about', 'map', 'gallery', 'elite', 'education', 'teachers', 'reviews', 'footer'],
-        navigationPosition: 'right',
-        navigation: true,
-        animateAnchor: true,
+    menu: '#fp-nav',
+    anchors:['top', 'about', 'map', 'gallery', 'elite', 'education', 'teachers', 'reviews', 'footer'],
+    navigationPosition: 'right',
+    navigation: true,
+    animateAnchor: true,
+    responsiveWidth: 1024,
+    slidesNavigation: true,
     afterRender: function(){
       $('.js-slick').slick({
         infinite: true,

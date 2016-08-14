@@ -20,3 +20,30 @@
 .footer-hamll {
   @include bg($hamll);
 }
+
+.footer-top {
+  position: relative;
+
+  display: block;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background-color: $orange;
+
+  @include transition;
+  &:hover {
+    background-color: $orange + #111;
+  }
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+    @include content;
+    @include bg($arrow-top);
+  }
+}

@@ -1,0 +1,39 @@
+.timer {
+  text-align: center;
+
+  color: #a7a7a7;
+
+  font-family: $SourceSansPro-Semibold;
+  @media screen and (max-width: 2560px) {
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+    font-size: 24px;
+  }
+  @media screen and (max-width: 1680px) {
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1360px) {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  &:before {
+    position: relative;
+
+    display: inline-block;
+
+    margin-right: 10px;
+
+    content: "";
+    vertical-align: middle;
+
+    @include bg($alarm-clock);
+  }
+  &__item {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}

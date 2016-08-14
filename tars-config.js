@@ -24,7 +24,8 @@ module.exports = {
         "jsPathsToConcatBeforeModulesJs": [
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/fullpage.js/jquery.fullPage.js',
-            'node_modules/slick-carousel/slick/slick.js'
+            'node_modules/slick-carousel/slick/slick.js',
+            'node_modules/jquery.numbered/jquery.numbered.js'
         ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],
