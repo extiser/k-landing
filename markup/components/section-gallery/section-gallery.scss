@@ -9,9 +9,9 @@
     width: 100%;
     height: 100%;
   }
-  .slide-control {
-    @media screen and (max-width: 1360px) {
-      bottom: 10px;
+  .fp-controlArrow {
+    @media screen and (max-width: 1680px) {
+      bottom: 20px;
     }
   }
 }

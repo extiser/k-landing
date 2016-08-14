@@ -51,9 +51,9 @@ _template: {
 
 'section-top': {},
 
-'timer': {},
-
 'top-menu': {},
+
+'timer': {},
 
 __pages: [{
                 name: 'index',

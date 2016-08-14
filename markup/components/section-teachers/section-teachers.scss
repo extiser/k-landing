@@ -15,7 +15,7 @@
     z-index: 0;
     top: -20px;
     left: -227px;
-    @media screen and (max-width: 1360px) {
+    @media screen and (max-width: 1680px) {
       top: 50%;
 
       transform: translateY(-50%);
@@ -46,6 +46,7 @@
     position: absolute;
     @media screen and (max-width: 2560px) {
       bottom: 0;
+
       width: auto;
       height: 100%;
     }
@@ -68,11 +69,14 @@
   }
   @media screen and (max-width: 1680px) {
     right: 50px;
+    left: 43%;
 
     width: 580px;
     margin-left: 100px;
   }
   @media screen and (max-width: 1360px) {
+    left: 50%;
+
     margin-left: 0;
   }
 }

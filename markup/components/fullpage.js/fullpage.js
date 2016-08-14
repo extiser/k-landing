@@ -1,14 +1,14 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
     paddingTop: '100px',
-    controlArrows: false,
+    controlArrows: true,
     menu: '#fp-nav',
     anchors:['top', 'about', 'map', 'gallery', 'elite', 'education', 'teachers', 'reviews', 'footer'],
     navigationPosition: 'right',
     navigation: true,
     animateAnchor: true,
     responsiveWidth: 1024,
-    slidesNavigation: true,
+    css3: true,
     afterRender: function(){
       $('.js-slick').slick({
         infinite: true,
@@ -64,6 +64,12 @@ $(document).ready(function() {
       $('.js-slick-vertical').on('afterChange', function(event, slick, currentSlide, nextSlide){
         $('.slick-current').next().addClass('slick-vertical-slide--active').siblings().removeClass('slick-vertical-slide--active');
       });
+
+      // $('.fp-controlArrow').each(function (el) {
+      //   $(el).wrapAll('<div class="fp-controlArrowWrapper></div>');
+      // });
+
+      // $('.fp-prev').before('<div class="fp-controlArrowWrapper">');
     },
     onLeave: function(index, nextIndex, direction){
       var leavingSection = $(this);

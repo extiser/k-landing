@@ -6213,9 +6213,6 @@ if(e&&1===a.nodeType)while(c=e[d++])a.removeAttribute(c)}}),hb={set:function(a,b
 }));
 
 
-$('.jsChangeLanguageItem').on('click', function () {
-  $(this).addClass('_active').siblings().removeClass('_active');
-});
 $(document).ready(function(){
   $('.numbered').numbered({
     mask: '+7 (###) ### - ## - ##',
@@ -6223,18 +6220,21 @@ $(document).ready(function(){
     empty: '_'
   });
 });
+$('.jsChangeLanguageItem').on('click', function () {
+  $(this).addClass('_active').siblings().removeClass('_active');
+});
 
 $(document).ready(function() {
   $('#fullpage').fullpage({
     paddingTop: '100px',
-    controlArrows: false,
+    controlArrows: true,
     menu: '#fp-nav',
     anchors:['top', 'about', 'map', 'gallery', 'elite', 'education', 'teachers', 'reviews', 'footer'],
     navigationPosition: 'right',
     navigation: true,
     animateAnchor: true,
     responsiveWidth: 1024,
-    slidesNavigation: true,
+    css3: true,
     afterRender: function(){
       $('.js-slick').slick({
         infinite: true,
@@ -6290,6 +6290,12 @@ $(document).ready(function() {
       $('.js-slick-vertical').on('afterChange', function(event, slick, currentSlide, nextSlide){
         $('.slick-current').next().addClass('slick-vertical-slide--active').siblings().removeClass('slick-vertical-slide--active');
       });
+
+      // $('.fp-controlArrow').each(function (el) {
+      //   $(el).wrapAll('<div class="fp-controlArrowWrapper></div>');
+      // });
+
+      // $('.fp-prev').before('<div class="fp-controlArrowWrapper">');
     },
     onLeave: function(index, nextIndex, direction){
       var leavingSection = $(this);
