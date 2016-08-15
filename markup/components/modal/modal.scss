@@ -6,25 +6,23 @@
 
   visibility: hidden;
 
-  
-
   transform: translate(-50%,-50%);
 
   @include transition;
   @media screen and (max-width: 2560px) {
     width: 850px;
-  height: 850px;
+    height: 850px;
   }
   @media screen and (max-width: 1680px) {
     width: 600px;
-  height: 600px;
+    height: 600px;
   }
   &#modal2 {
     @media screen and (max-width: 2560px) {
       height: 600px;
     }
     @media screen and (max-width: 1680px) {
-      height: 300px;
+      height: 450px;
     }
   }
   @media screen and (max-width: 1360px) {

@@ -6,7 +6,7 @@ mixin callback-form(param)
       +timer
     - else 
       .callback-form__title Перезвоните мне
-    form(method="" action="").form
-      input(type="text" id="name" name="name" placeholder="Имя и фамилия").form-element
-      input(type="text" id="phone" name="phone").form-element.numbered
+    form().form.js-form
+      input(type="text" name="name" placeholder="Имя и фамилия" required="required").form-element
+      input(type="text" name="phone" required="required").form-element.numbered
       input(type="submit" value="Записаться").button.button--orange.big.form-button
