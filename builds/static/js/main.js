@@ -6231,10 +6231,10 @@ $(document).ready(function(){
     });
   });
 });
+
 $('.jsChangeLanguageItem').on('click', function () {
   $(this).addClass('_active').siblings().removeClass('_active');
 });
-
 $(document).ready(function() {
   $('#fullpage').fullpage({
     paddingTop: '100px',
@@ -6270,11 +6270,12 @@ $(document).ready(function() {
       });
 
       $('.js-slick-vertical').slick({
-        // infinite: true,
+        infinite: true,
         pauseOnHover: true,
         autoplaySpeed: 4000,
         speed: 300,
         slidesToShow: 3,
+        slidesToScroll: 1,
         arrows: true,
         // prevArrow: '.js-slick-arrow-prev',
         // nextArrow: '.js-slick-arrow-next',

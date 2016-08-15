@@ -3,101 +3,51 @@ mixin section-reviews(data)
     .section-reviews__wrapper
       .section-reviews-left
         .js-slick-vertical
-          .slick-vertical-slide
-            .section-reviews-slide-review
-              .content
-                p Для меня самое важное, чтобы у моего ребенка было лучшее образование. В нашем мире невероятно важно получать современное образование с самого раннего возраста. Так, я уверен, что One! International School – очень важная ступень. И я думаю, я уверен, что если второй ступенью будет школа, у моей дочери будет хорошее образование.
+          - for (var i = 0; i < 3; i++)
+            .slick-vertical-slide
+              .section-reviews-slide-review
+                .content
+                  p Для меня самое важное, чтобы у моего ребенка было лучшее образование. В нашем мире невероятно важно получать современное образование с самого раннего возраста. Так, я уверен, что One! International School – очень важная ступень. И я думаю, я уверен, что если второй ступенью будет школа, у моей дочери будет хорошее образование.
 
-              .section-reviews-slide-review-bottom
-                .section-reviews-slide-review-user
-                  .section-reviews-slide-review-user__img
-                    img(src="%=static=%images/assets/section-reviews/user.png" alt)
-                  .section-reviews-slide-review-user__content
-                    .section-reviews-slide-review-user__name Папа
-                    .section-reviews-slide-review-user__pro Эммы Булаевой
-                
-                a(href="https://vimeo.com/160257420" title="" target="_blank").section-reviews-slide-review-video Видео
+                .section-reviews-slide-review-bottom
+                  .section-reviews-slide-review-user
+                    .section-reviews-slide-review-user__img
+                      img(src="%=static=%images/assets/section-reviews/2.png" alt)
+                    .section-reviews-slide-review-user__content
+                      .section-reviews-slide-review-user__name Папа
+                      .section-reviews-slide-review-user__pro Эммы Булаевой
+                  
+                  a(href="https://vimeo.com/160257420" title="" target="_blank").section-reviews-slide-review-video Видео
+              
+            .slick-vertical-slide
+              .section-reviews-slide-review
+                .content
+                  p Я думаю, что школа должна в первую очередь продолжать то направление, которое выбрал детский сад, и развивать те навыки, те знания, которые у него уже будут. И должно быть отношение достаточно личностное к каждому ребенку.
+
+                .section-reviews-slide-review-bottom
+                  .section-reviews-slide-review-user
+                    .section-reviews-slide-review-user__img
+                      img(src="%=static=%images/assets/section-reviews/1.png" alt)
+                    .section-reviews-slide-review-user__content
+                      .section-reviews-slide-review-user__name Папа 
+                      .section-reviews-slide-review-user__pro Ильи Корякина
+                  
+                  a(href="https://vimeo.com/160257113" title="" target="_blank").section-reviews-slide-review-video Видео
             
-          .slick-vertical-slide
-            .section-reviews-slide-review
-              .content
-                p Я думаю, что школа должна в первую очередь продолжать то направление, которое выбрал детский сад, и развивать те навыки, те знания, которые у него уже будут. И должно быть отношение достаточно личностное к каждому ребенку.
+            .slick-vertical-slide
+              .section-reviews-slide-review
+                .content
+                  p Мы были приятно впечатлены атмосферой, знакомством с Максимом генеральным директором, и мы решили начать ходить сюда. Нам кажется, что это было правильное решение. Я имею в виду правильный выбор, так как мне очень нравится атмосфера, педагоги, которые вовлекают нас в учебный процесс в течение дня.
 
-              .section-reviews-slide-review-bottom
-                .section-reviews-slide-review-user
-                  .section-reviews-slide-review-user__img
-                    img(src="%=static=%images/assets/section-reviews/user.png" alt)
-                  .section-reviews-slide-review-user__content
-                    .section-reviews-slide-review-user__name Папа 
-                    .section-reviews-slide-review-user__pro Ильи Корякина
-                
-                a(href="https://vimeo.com/160257113" title="" target="_blank").section-reviews-slide-review-video Видео
-          
-          .slick-vertical-slide
-            .section-reviews-slide-review
-              .content
-                p Мы были приятно впечатлены атмосферой, знакомством с Максимом генеральным директором, и мы решили начать ходить сюда. Нам кажется, что это было правильное решение. Я имею в виду правильный выбор, так как мне очень нравится атмосфера, педагоги, которые вовлекают нас в учебный процесс в течение дня.
-
-              .section-reviews-slide-review-bottom
-                .section-reviews-slide-review-user
-                  .section-reviews-slide-review-user__img
-                    img(src="%=static=%images/assets/section-reviews/user.png" alt)
-                  .section-reviews-slide-review-user__content
-                    .section-reviews-slide-review-user__name Мама
-                    .section-reviews-slide-review-user__pro Томаззо Росси
-                
-                a(href="https://vimeo.com/160257526" title="" target="_blank").section-reviews-slide-review-video Видео
-
-          .slick-vertical-slide
-            .section-reviews-slide-review
-              .content
-                p Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.
-
-                p Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.
-
-              .section-reviews-slide-review-bottom
-                .section-reviews-slide-review-user
-                  .section-reviews-slide-review-user__img
-                    img(src="%=static=%images/assets/section-reviews/user.png" alt)
-                  .section-reviews-slide-review-user__content
-                    .section-reviews-slide-review-user__name Мария
-                    .section-reviews-slide-review-user__pro Мама Насти Волковой
-                
-                a(href="#" title="").section-reviews-slide-review-video Видео
-
-          .slick-vertical-slide
-            .section-reviews-slide-review
-              .content
-                p Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.
-
-                p Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.
-
-              .section-reviews-slide-review-bottom
-                .section-reviews-slide-review-user
-                  .section-reviews-slide-review-user__img
-                    img(src="%=static=%images/assets/section-reviews/user.png" alt)
-                  .section-reviews-slide-review-user__content
-                    .section-reviews-slide-review-user__name Мария
-                    .section-reviews-slide-review-user__pro Мама Насти Волковой
-                
-                a(href="#" title="").section-reviews-slide-review-video Видео
-
-          .slick-vertical-slide
-            .section-reviews-slide-review
-              .content
-                p Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.
-
-                p Мы делаем процесс образования и воспитания максимально индивидуализированным. Это становится возможным благодаря малым группам (всего 15 человек) и наличию более трех специалистов в каждой группе.
-
-              .section-reviews-slide-review-bottom
-                .section-reviews-slide-review-user
-                  .section-reviews-slide-review-user__img
-                    img(src="%=static=%images/assets/section-reviews/user.png" alt)
-                  .section-reviews-slide-review-user__content
-                    .section-reviews-slide-review-user__name Мария
-                    .section-reviews-slide-review-user__pro Мама Насти Волковой
-                
-                a(href="#" title="").section-reviews-slide-review-video Видео
+                .section-reviews-slide-review-bottom
+                  .section-reviews-slide-review-user
+                    .section-reviews-slide-review-user__img
+                      img(src="%=static=%images/assets/section-reviews/3.png" alt)
+                    .section-reviews-slide-review-user__content
+                      .section-reviews-slide-review-user__name Мама
+                      .section-reviews-slide-review-user__pro Томаззо Росси
+                  
+                  a(href="https://vimeo.com/160257526" title="" target="_blank").section-reviews-slide-review-video Видео
 
       .section-reviews-right
         .section-reviews-title.title.c-purple

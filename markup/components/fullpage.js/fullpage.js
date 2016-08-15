@@ -33,11 +33,12 @@ $(document).ready(function() {
       });
 
       $('.js-slick-vertical').slick({
-        // infinite: true,
+        infinite: true,
         pauseOnHover: true,
         autoplaySpeed: 4000,
         speed: 300,
         slidesToShow: 3,
+        slidesToScroll: 1,
         arrows: true,
         // prevArrow: '.js-slick-arrow-prev',
         // nextArrow: '.js-slick-arrow-next',

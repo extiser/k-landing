@@ -4,20 +4,76 @@
 		"selected_items":
 		[
 			[
-				"marign",
-				"margin-bottom"
+				"text",
+				"text-decoration"
 			],
 			[
-				"padd",
-				"padding-left"
-			],
-			[
-				"pad",
-				"padding-bottom"
+				"margi",
+				"margin"
 			],
 			[
 				"margin",
-				"margin-top"
+				"margin-right"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"marign",
+				"margin-right"
+			],
+			[
+				"tra",
+				"translateY"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"days",
+				"daysSpan"
+			],
+			[
+				"js-time",
+				"js-timer-days"
+			],
+			[
+				"qer",
+				"querySelector"
+			],
+			[
+				"next",
+				"nextIndex"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"sec",
+				"section-reviews"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"fno",
+				"font-size"
+			],
+			[
+				"in",
+				"inherit"
 			],
 			[
 				"font",
@@ -34,14 +90,6 @@
 			[
 				"call",
 				"callback-form	(index.jade)"
-			],
-			[
-				"tra",
-				"translateY"
-			],
-			[
-				"sec",
-				"section-map"
 			],
 			[
 				"tex",
@@ -176,10 +224,6 @@
 				"transform"
 			],
 			[
-				"text",
-				"text-transform"
-			],
-			[
 				"background",
 				"background-color"
 			],
@@ -280,10 +324,6 @@
 				"footer-menu"
 			],
 			[
-				"margi",
-				"margin-top"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -334,10 +374,6 @@
 			[
 				"ex",
 				"expert-settings"
-			],
-			[
-				"in",
-				"inline"
 			],
 			[
 				"e",
@@ -478,63 +514,11 @@
 			[
 				"exp",
 				"expert	(experts-list.jade)"
-			],
-			[
-				"tp",
-				"tips-hours"
-			],
-			[
-				"tip",
-				"tips-hours"
-			],
-			[
-				"ar",
-				"article-block"
-			],
-			[
-				"column",
-				"columns	(GUI.scss)"
-			],
-			[
-				"smal",
-				"small-12"
-			],
-			[
-				"top",
-				"top-ask"
-			],
-			[
-				"ak",
-				"ask-question-link"
-			],
-			[
-				"eas",
-				"ease-in-out"
-			],
-			[
-				"main",
-				"main-categories-list-item__text"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/components/section-contact/section-contact.jade",
-			"settings":
-			{
-				"buffer_size": 808,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "markup/components/section-contact/section-contact.scss",
-			"settings":
-			{
-				"buffer_size": 1460,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -609,53 +593,63 @@
 	[
 		"/Users/extiser/git/k-landing/markup",
 		"/Users/extiser/git/k-landing/markup/components",
-		"/Users/extiser/git/k-landing/markup/components/section-contact",
+		"/Users/extiser/git/k-landing/markup/components/section-elite",
+		"/Users/extiser/git/k-landing/markup/components/section-top",
 		"/Users/extiser/git/k-landing/markup/pages",
 		"/Users/extiser/git/k-landing/markup/static",
 		"/Users/extiser/git/k-landing/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/k-landing/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.scss",
 		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.jade",
-		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.scss",
+		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.js",
 		"/Users/extiser/git/k-landing/markup/components/modal/modal.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.scss",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.jade",
+		"/Users/extiser/git/k-landing/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/k-landing/markup/components/section-teachers/section-teachers.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-teachers/section-teachers.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-education/section-education.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-education/section-education.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.jade",
-		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-contact/section-contact.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.jade",
-		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.jade",
-		"/Users/extiser/git/k-landing/markup/components/footer/footer.js",
+		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.jade",
 		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.js",
-		"/Users/extiser/git/k-landing/markup/pages/index.jade",
+		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.scss",
+		"/Users/extiser/git/k-landing/markup/components/footer/footer.scss",
+		"/Users/extiser/git/k-landing/markup/components/footer/footer.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.jade",
+		"/Users/extiser/git/k-landing/markup/components/fp-nav/fp-nav.scss",
 		"/Users/extiser/git/k-landing/markup/components/modal/modal.jade",
+		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.scss",
+		"/Users/extiser/git/k-landing/markup/components/timer/timer.jade",
+		"/Users/extiser/git/k-landing/markup/components/timer/timer.js",
 		"/Users/extiser/git/k-landing/markup/components/modal/modal.js",
+		"/Users/extiser/git/k-landing/markup/components/timer/timer.scss",
+		"/Users/extiser/git/k-landing/markup/pages/index.jade",
+		"/Users/extiser/git/k-landing/markup/components/fp-nav/fp-nav.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.jade",
+		"/Users/extiser/git/k-landing/markup/components/header/header.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-contact/section-contact.scss",
+		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.jade",
+		"/Users/extiser/git/k-landing/markup/static/scss/vars.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/k-landing/markup/components/footer/footer.js",
 		"/Users/extiser/git/k-landing/markup/components/section-teachers/section-teachers.sass",
 		"/Users/extiser/git/k-landing/markup/components/section-education/section-education.sass",
-		"/Users/extiser/git/k-landing/markup/components/section-contact/section-contact.jade",
-		"/Users/extiser/git/k-landing/markup/components/footer/footer.jade",
-		"/Users/extiser/git/k-landing/markup/components/footer/footer.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-contact/section-contact.scss",
 		"/Users/extiser/git/k-landing/markup/static/scss/common.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/vars.scss",
 		"/Users/extiser/git/k-landing/markup/components/default_component_scheme.json",
 		"/Users/extiser/git/k-landing/tars-config.js",
-		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.jade",
 		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.sass",
 		"/Users/extiser/git/k-landing/markup/components/slick.js/slick.js",
 		"/Users/extiser/git/k-landing/markup/components/slick.js/slick.scss",
-		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/mixins.scss",
 		"/Users/extiser/git/k-landing/node_modules/slick-carousel/slick/slick.scss",
 		"/Users/extiser/git/k-landing/markup/static/js/separate-js/svg4everybody.min.js",
 		"/Users/extiser/git/k-landing/markup/static/js/separate-js/html5shiv-3.7.2.min.js",
@@ -683,7 +677,6 @@
 		"/Users/extiser/git/k-landing/markup/components/top-menu/data/data.js",
 		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.scss",
 		"/Users/extiser/git/k-landing/markup/components/section-top/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.scss",
 		"/Users/extiser/git/k-landing/markup/components/section-map/data/data.js",
 		"/Users/extiser/git/k-landing/markup/components/section-gallery/data/data.js",
 		"/Users/extiser/git/k-landing/markup/components/section-elite/data/data.js",
@@ -707,10 +700,8 @@
 		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite_96.scss",
 		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-fallback-sprite.scss",
 		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-sprite.scss",
-		"/Users/extiser/git/k-landing/markup/components/header/header.jade",
 		"/Users/extiser/git/k-landing/markup/static/scss/fonts.scss",
 		"/Users/extiser/git/k-landing/markup/static/js/main.js",
-		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.jade",
 		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.jade",
 		"/Users/extiser/git/sovets-pro/node_modules/foundation-sites/scss/util/_unit.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
@@ -737,13 +728,7 @@
 		"/Users/extiser/git/sovets-pro/markup/modules/read-more/read-more.jade",
 		"/Users/extiser/git/sovets-pro/markup/modules/read-more/read-more.scss",
 		"/Users/extiser/git/sovets-pro/markup/modules/menu/data/data.js",
-		"/Users/extiser/git/sovets-pro/markup/modules/menu/menu.scss",
-		"/Users/extiser/Dropbox/fix.css",
-		"/Users/extiser/git/nemodnaya/builds/static/css/main_ie9.css",
-		"/Users/extiser/git/nemodnaya/builds/static/css/main_ie9.min.css",
-		"/Users/extiser/git/sovets-pro/markup/modules/menu/menu.jade",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/etc/other-icons.scss",
-		"/Users/extiser/git/sovets-pro/markup/static/scss/GUI.scss"
+		"/Users/extiser/git/sovets-pro/markup/modules/menu/menu.scss"
 	],
 	"find":
 	{
@@ -762,6 +747,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"fp-nav",
+			".section-elite-slide",
+			"(max-width: 1920px)",
+			"(max-width: 1360px)",
+			"(max-width: 1920px)",
 			"margin-top",
 			"ol",
 			"fullpage",
@@ -884,12 +874,7 @@
 			".visible-xs-block",
 			".title",
 			"8",
-			"send",
-			"$blue",
-			"-webkit-margin-before: 1em;",
-			"HelveticaNeueCyrBold",
-			"../static/images/",
-			"&--individualcreate"
+			"send"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -897,6 +882,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"(max-width: 2560px)",
+			"(max-width: 1440px)",
+			"(max-width: 2560px)",
 			"",
 			".slide-control",
 			"#",
@@ -1021,10 +1009,7 @@
 			"",
 			"../images",
 			"",
-			"b-why-you-need",
-			"b-in-photo",
-			"b-why",
-			"03dbaf"
+			"b-why-you-need"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1035,77 +1020,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/components/section-contact/section-contact.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "markup/components/section-contact/section-contact.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1460,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1445,
-								1445
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 870.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 24.0
 	},
 	"input":
 	{
