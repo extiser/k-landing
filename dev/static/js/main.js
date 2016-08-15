@@ -6231,10 +6231,10 @@ $(document).ready(function(){
     });
   });
 });
-
 $('.jsChangeLanguageItem').on('click', function () {
   $(this).addClass('_active').siblings().removeClass('_active');
 });
+
 $(document).ready(function() {
   $('#fullpage').fullpage({
     paddingTop: '100px',
@@ -6354,39 +6354,6 @@ $('.mask').click(function () {
 
 
 
-// $(document).ready(function () {
-  // $('.js-slick').slick({
-  // // normal options...
-  // infinite: false,
-  // adaptiveHeight: true,
-
-  // slidesToShow: 1,
-  // arrows: true,
-  // prevArrow: '.js-slick-arrow-prev',
-  // nextArrow: '.js-slick-arrow-next',
-  // draggable: true,
-  // // the magic
-  // responsive: [{
-
-  //     breakpoint: 1024,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       infinite: true
-  //     }
-
-  //   }, {
-
-  //     breakpoint: 600,
-  //     settings: {
-  //       slidesToShow: 1,
-  //       // dots: true
-  //     }
-
-  //   }]
-  // });
-// });
-
-
 var deadline = $('.js-timer').data('time');
 
 function getTimeRemaining(endtime) {
@@ -6425,4 +6392,37 @@ function initializeClock(element, endtime){
   },1000);
 }
 initializeClock('.js-timer', deadline);
+
+// $(document).ready(function () {
+  // $('.js-slick').slick({
+  // // normal options...
+  // infinite: false,
+  // adaptiveHeight: true,
+
+  // slidesToShow: 1,
+  // arrows: true,
+  // prevArrow: '.js-slick-arrow-prev',
+  // nextArrow: '.js-slick-arrow-next',
+  // draggable: true,
+  // // the magic
+  // responsive: [{
+
+  //     breakpoint: 1024,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       infinite: true
+  //     }
+
+  //   }, {
+
+  //     breakpoint: 600,
+  //     settings: {
+  //       slidesToShow: 1,
+  //       // dots: true
+  //     }
+
+  //   }]
+  // });
+// });
+
 
