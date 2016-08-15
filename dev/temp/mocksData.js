@@ -43,9 +43,9 @@ _template: {
 
 'section-gallery': {},
 
-'section-map': {},
-
 'section-reviews': {},
+
+'section-map': {},
 
 'section-teachers': {},
 
